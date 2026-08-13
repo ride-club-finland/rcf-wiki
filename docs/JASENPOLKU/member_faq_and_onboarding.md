@@ -40,7 +40,9 @@ Kyllä, ehdottomasti. Matalan kynnyksen kisoja ja aloittelijaohjeita on olemassa
 
 **3. Hanki e-pyöräilyn perusvälineet.** Tarvitset pyörän, harjoitusvastuksen tai älytrainerin sekä laitteen e-pyöräilysovellukselle. Hyödyllisiä lisiä ovat sykemittari, tuuletin, suojamatto, kuulokkeet ja mikrofoni — näitä ei tarvitse hankkia kaikkia heti, vaan sitä mukaa kun tarve kasvaa.
 
-**4. Luo tarvittavat tilit.** Zwift-tili (tai muu e-pyöräilysovellus); ZwiftPower-tili, jos osallistut Zwift-kisoihin tai seuraat tuloksia; WTRL-tili, jos osallistut WTRL/ZRL-kisoihin. Liity lisäksi RCF:n ZwiftPower-tiimiin ja RCF:n Zwift Clubiin. Jos jokin tunnus tai kytkentä ei toimi, kysy rohkeasti help-deskissä.
+**4. Luo tarvittavat tilit.** Zwift-tili (tai muu e-pyöräilysovellus); ZwiftPower-tili, jos osallistut Zwift-kisoihin tai seuraat tuloksia; WTRL-tili, jos osallistut WTRL/ZRL-kisoihin. Liity lisäksi RCF:n ZwiftPower-tiimiin (`zwiftpower.com/team.php?id=20561`) ja RCF:n Zwift Clubiin. Jos jokin tunnus tai kytkentä ei toimi, kysy rohkeasti help-deskissä.
+
+Lisää valmiita ulkoisia työkalulinkkejä (analytiikka, reittityökalut, harjoittelu): [E-pyöräilyn työkalulinkit](e_pyorailyn_tyokalulinkit.md).
 
 **5. Tule mukaan ensimmäisiin ajoihin ja kisaan.** Ei tarvitse aloittaa kilpailulla — vapaat Zwift-ajot, ryhmäajot ja aloittelijaystävälliset tapahtumat ovat hyviä ensiaskeleita, ja mukaan saa tulla matalalla kynnyksellä. Kun olet valmis ensimmäiseen kisaan: varmista että Zwift, sykemittari ja traineri toimivat yhdessä, aja pari vapaata tai kovaa ajoa ennen kilpailua niin kategoria-arviosi muodostuu, rekisteröidy tarvittaessa ZwiftPoweriin ja WTRL:ään, ja kerro Discord-kanavalla että olet mukana. Tapahtumapäivänä kannattaa tulla ajoissa lämmittelyyn, liittyä oikealle puhekanavalle ja testata kuulokkeet ja mikrofoni etukäteen. Tarkista tulokset kisan jälkeen — infopankissa on tähän myös visuaalinen opas.
 
@@ -53,5 +55,5 @@ Ensimmäinen kisa saa olla kevyt kokeilu — maaliin pääseminen riittää tavo
 !!! info "Ennen jäsenille julkaisua"
     Tämä on ainoa dokumentti tässä wikissä, joka on merkitty julkaisukandidaatiksi (`publishability: public_candidate`) — tarkoitus on näyttää se jäsenille sellaisenaan. Sisältö on valmis; tarkista vain nämä kaksi ajan myötä muuttuvaa asiaa ennen julkaisua:
 
-    1. **Linkit.** Suorat linkit (Zwift, ZwiftPower, WTRL, infopankin oppaat) haetaan erikseen linkkirekisteristä — niitä ei ole tässä dokumentissa valmiiksi.
+    1. **Zwift Club -linkki.** Linkkirekisteristä löytyi kolme eri club-ID:tä eri ajankohdilta (2024-07, 2025-09, 2026-01) — kukaan ei ole vielä vahvistanut, mikä on nykyinen oikea linkki. Muut tässä mainitut linkit (ZwiftPower-tiimi, infopankin oppaat) ovat vakaita, ks. [resurssi-inventaario](../YLLAPITO/resource_inventory.md).
     2. **Jäsenmaksu ja SuomiSport-hyväksyntä.** Nämä ovat ainoat aidosti ajan myötä muuttuvat faktat tässä dokumentissa.

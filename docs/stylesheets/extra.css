@@ -1,0 +1,130 @@
+/* Ride Club Finland brand overrides for the MkDocs Material theme.
+   Colour/type values sourced from the RCF Design System (colors_and_type.css). */
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap");
+
+/* -------- Light scheme ("default") -------- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:         #102E7A; /* rcf-navy-700, official wordmark navy */
+  --md-primary-fg-color--light:  #1F4AA8; /* rcf-navy-600 */
+  --md-primary-fg-color--dark:   #07194F; /* rcf-navy-900 */
+  --md-primary-bg-color:         #FFFFFF;
+  --md-primary-bg-color--light:  #CDE7F1; /* rcf-ice-200 */
+
+  --md-accent-fg-color:              #1F8FB6; /* rcf-cyan-600 */
+  --md-accent-fg-color--transparent: #1F8FB61a;
+  --md-accent-bg-color:              #FFFFFF;
+
+  --md-default-bg-color: #F4EFE4; /* rcf-paper */
+}
+
+/* -------- Dark scheme ("slate") -------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:         #0B2364; /* rcf-navy-800, header stands slightly off the page bg */
+  --md-primary-fg-color--light:  #1F4AA8;
+  --md-primary-fg-color--dark:   #07194F;
+  --md-primary-bg-color:         #FFFFFF;
+  --md-primary-bg-color--light:  #CDE7F1;
+
+  --md-accent-fg-color:              #6BBED9; /* rcf-ice-400, pops on dark navy */
+  --md-accent-fg-color--transparent: #6BBED91a;
+  --md-accent-bg-color:              #07194F;
+
+  --md-default-bg-color: #07194F; /* rcf-navy-900, "flat navy" panel from the brand */
+  --md-default-fg-color: #ECF6FB; /* rcf-ice-100 */
+  --md-default-fg-color--light: #CDE7F1;
+  --md-default-fg-color--lighter: #9CD3E5;
+
+  --md-typeset-color: #ECF6FB;
+  --md-typeset-a-color: #6BBED9; /* rcf-ice-400: primary-fg-color is too dark to read as a link on navy bg */
+  --md-code-bg-color: #0B2364;
+  --md-code-fg-color: #ECF6FB;
+}
+
+/* -------- Finnish flag stripe under the header -------- */
+.md-header {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #102E7A 0 33%, #FFFFFF 33% 66%, #C8112E 66% 100%) 1;
+}
+
+/* -------- Headings: brand poster type -------- */
+.md-header__ellipsis .md-header__topic:first-child {
+  font-family: "Archivo Black", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-family: "Anton", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: 0.005em;
+}
+
+.md-typeset h2 {
+  font-family: "Archivo Black", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-size: 1.3em;
+}
+
+/* -------- Admonitions: retint to brand palette instead of Material stock colours -------- */
+.md-typeset .admonition.note,
+.md-typeset .admonition.info {
+  border-color: #1F4AA8;
+}
+.md-typeset .note > .admonition-title,
+.md-typeset .info > .admonition-title {
+  background-color: #1F4AA81a;
+}
+.md-typeset .note > .admonition-title::before,
+.md-typeset .info > .admonition-title::before {
+  background-color: #1F4AA8;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset .admonition.success {
+  border-color: #1F8FB6;
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .success > .admonition-title {
+  background-color: #1F8FB61a;
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .success > .admonition-title::before {
+  background-color: #1F8FB6;
+}
+
+.md-typeset .admonition.warning {
+  border-color: #E8A33A;
+}
+.md-typeset .warning > .admonition-title {
+  background-color: #E8A33A1a;
+}
+.md-typeset .warning > .admonition-title::before {
+  background-color: #E8A33A;
+}
+
+.md-typeset .admonition.danger {
+  border-color: #C8112E;
+}
+.md-typeset .danger > .admonition-title {
+  background-color: #C8112E1a;
+}
+.md-typeset .danger > .admonition-title::before {
+  background-color: #C8112E;
+}
+
+/* -------- Front page hero logo -------- */
+.rcf-hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1.5em;
+}
+.rcf-hero img {
+  width: 200px;
+  max-width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(11, 27, 71, 0.18);
+}

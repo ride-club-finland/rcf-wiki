@@ -4,6 +4,10 @@ last_verified: 2026-08-13
 status: koostettu_wikiin
 ---
 
+<div class="rcf-hero">
+  <img src="assets/branding/logo-square.svg" alt="Ride Club Finland">
+</div>
+
 # RCF-wikin sisällysluettelo
 
 Tämä on lopullinen, päätetty sisällysluettelo Discordista louhitusta hiljaisesta tiedosta. Perusteet sille, mikä päätyi wikiin ja mikä jäi Discordiin: [wiki-päätös](meta/wiki_decision.md).
@@ -27,6 +31,7 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 ## JÄSENPOLKU
 
 - [Jäsenen FAQ ja onboarding-polku](JASENPOLKU/member_faq_and_onboarding.md) — `public_candidate`
+- [E-pyöräilyn työkalulinkit](JASENPOLKU/e_pyorailyn_tyokalulinkit.md)
 
 ## ORGANIZER_CHECKLISTS
 
@@ -40,4 +45,6 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 
 ## Ei wikissä — jäi elämään Discordiin
 
-Kesken oleva kausisuunnittelu (esim. TalviCup 2026-2027), avointen asioiden TODO-lista, linkkirekisterin raakadata ja tämän louhintaprojektin oma prosessikirjanpito. Katso perustelut: [wiki-päätös](meta/wiki_decision.md).
+Kesken oleva kausisuunnittelu (esim. TalviCup 2026-2027), avointen asioiden TODO-lista ja tämän louhintaprojektin oma prosessikirjanpito. Katso perustelut: [wiki-päätös](meta/wiki_decision.md).
+
+Linkkirekisteri (699 linkkiä) käytiin yksitellen läpi 2026-08-13: noin 85 % on yksittäisiä kisatallenteita tai kertaluonteisia event-linkkejä, jotka jäävät tarkoituksella Discordiin. Pysyvästi käytetyt linkit (ZwiftPower-tiimi, RCF Cup -tapahtumatagi, RCF Shop, ym.) on nostettu [resurssi-inventaarioon](YLLAPITO/resource_inventory.md), ja valmiiksi koostettu työkalulinkkikokoelma omaksi sivukseen (ks. yllä).

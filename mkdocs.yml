@@ -5,16 +5,23 @@ site_author: Ride Club Finland
 theme:
   name: material
   language: fi
+  logo: assets/branding/monogram-rcf.svg
+  favicon: assets/branding/monogram-rcf.svg
+  font:
+    text: Barlow
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Vaihda tummaan tilaan
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Vaihda vaaleaan tilaan
@@ -27,6 +34,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Etusivu: index.md
@@ -42,6 +52,7 @@ nav:
       - TAPAHTUMAT/event_playbook_rcf_vs_sz.md
   - Jäsenpolku:
       - JASENPOLKU/member_faq_and_onboarding.md
+      - JASENPOLKU/e_pyorailyn_tyokalulinkit.md
   - Järjestäjän checklistit:
       - ORGANIZER_CHECKLISTS/index.md
       - ORGANIZER_CHECKLISTS/how_to_run_kruunajaiset.md
