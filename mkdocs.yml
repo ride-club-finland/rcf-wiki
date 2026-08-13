@@ -1,0 +1,61 @@
+site_name: RCF-wiki
+site_description: Ride Club Finlandin sisäinen tietopankki — pysyvä tieto joka on liian raskas Discordissa säilytettäväksi.
+site_author: Ride Club Finland
+
+theme:
+  name: material
+  language: fi
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Vaihda tummaan tilaan
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Vaihda vaaleaan tilaan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Etusivu: index.md
+  - Ylläpito:
+      - YLLAPITO/discord_operating_model.md
+      - YLLAPITO/resource_inventory.md
+      - YLLAPITO/roles_and_responsibilities.md
+  - Tapahtumat:
+      - TAPAHTUMAT/event_organizing_patterns.md
+      - TAPAHTUMAT/event_playbook_kruunajaiset.md
+      - TAPAHTUMAT/competition_process_rcf_cup.md
+      - TAPAHTUMAT/event_playbook_rcf_team_race.md
+      - TAPAHTUMAT/event_playbook_rcf_vs_sz.md
+  - Jäsenpolku:
+      - JASENPOLKU/member_faq_and_onboarding.md
+  - Järjestäjän checklistit:
+      - ORGANIZER_CHECKLISTS/index.md
+      - ORGANIZER_CHECKLISTS/how_to_run_kruunajaiset.md
+      - ORGANIZER_CHECKLISTS/how_to_run_rcf_cup.md
+      - ORGANIZER_CHECKLISTS/how_to_run_rcf_team_race.md
+      - ORGANIZER_CHECKLISTS/how_to_run_wtrl_ttt.md
+      - ORGANIZER_CHECKLISTS/templates/rcf_cup_announcement_template.md
+  - Tausta:
+      - meta/wiki_decision.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
