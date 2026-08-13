@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Ride Club Finland">
+  <defs>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1B47"></stop>
+      <stop offset="55%" stop-color="#122A66"></stop>
+      <stop offset="100%" stop-color="#1B3D8C"></stop>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0%" stop-color="#4DD3E8" stop-opacity="0.0"></stop>
+      <stop offset="50%" stop-color="#4DD3E8" stop-opacity="0.55"></stop>
+      <stop offset="100%" stop-color="#4DD3E8" stop-opacity="0.0"></stop>
+    </linearGradient>
+    <linearGradient id="redstroke" x1="0" y1="0" x2="1" y2="0.7">
+      <stop offset="0%" stop-color="#DE2A2A" stop-opacity="0.0"></stop>
+      <stop offset="50%" stop-color="#DE2A2A" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#DE2A2A" stop-opacity="0.0"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="320" fill="url(#aurora)"></rect>
+
+  <path d="M -20 80 Q 160 -20 340 70 L 340 110 Q 160 30 -20 130 Z" fill="url(#wave)"></path>
+  <path d="M -20 60 Q 160 -40 340 50 L 340 70 Q 160 -10 -20 90 Z" fill="url(#wave)" opacity="0.5"></path>
+
+  <path d="M -10 220 Q 80 120 200 180 T 340 160" stroke="url(#redstroke)" stroke-width="4" fill="none"></path>
+
+  <g font-family="Archivo Black, Helvetica, sans-serif" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    <text x="160" y="148" font-size="64" letter-spacing="-1">RIDE</text>
+    <text x="160" y="206" font-size="64" letter-spacing="-1">CLUB</text>
+    <text x="160" y="252" font-size="34" letter-spacing="2">FINLAND</text>
+  </g>
+</svg>
