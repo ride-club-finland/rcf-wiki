@@ -32,6 +32,18 @@ Suositus: käytä pistepohjaista kokonaiskilpailua jos halutaan sallia yhden osa
 
 Stage-linkit ovat väliaikainen tiedotusratkaisu, ei pysyvä dokumentointi — yksittäiset linkit saavat olla Discordissa, mutta niitä ei viedä tähän dokumenttiin.
 
+### ZwiftPowerin League-työkalu — pisteytyksen käytännön hallinta
+
+RCF Cupin pisteytystä ei lasketa käsin taulukkoon, vaan ZwiftPowerin **League**-työkalulla:
+
+- Työkalulla luodaan liiga (osoitteessa `zwiftpower.com/league.php?id=...`), johon osakilpailujen tulokset kootaan automaattisesti ZwiftPowerin kisatuloksista valitun pistemallin mukaan.
+- Liiganäkymä päivittyy, kun järjestäjä vahvistaa kunkin osakilpailun (stagen) jälkeen — tammikuun 2026 RCF Cupissa pistetilanne julkaistiin `rcf-cup`-kanavalle samalla liigalinkillä jokaisen stagen jälkeen.
+- Työkalulla voi myös poistaa yksittäisiä tuloksia tuloslistalta manuaalisesti, jos virhe tai väärinkäytös pitää korjata.
+
+**Miten oikeudet saadaan:** League-työkalu ei ole automaattisesti kaikkien käytössä. Oikeudet myöntää ZwiftPower itse omalla League-pyyntölomakkeellaan (täytetään suoraan ZwiftPowerin sivulla) — pyyntö ei kulje RCF:n Discord-roolien tai -adminoikeuksien kautta, vaan on kokonaan ZwiftPoweriin sidottu, henkilökohtainen tilioikeus. Nykyinen RCF Cupin liiga-admin haki ja sai oikeutensa elokuussa 2025 tätä lomaketta kautta.
+
+**Riski:** oikeudet ovat juuri nyt yhden henkilön ZwiftPower-tilin varassa, ei jaettu roolina eikä varahenkilölle. Jos tili menetetään tai henkilö lopettaa aktiivitoiminnan, joku toinen joutuu hakemaan League-oikeudet uudestaan samalla lomakkeella omalle tililleen ennen kuin seuraavan Cupin pisteytystä voi jatkaa samalla tavalla. Ks. [roolit ja vastuut](../YLLAPITO/roles_and_responsibilities.md) ja [resurssi-inventaario](../YLLAPITO/resource_inventory.md).
+
 ## RCF-joukkuekisat
 
 Ero RCF Cupiin: joukkuekisassa osallistujat jaetaan järjestäjän toimesta kahteen tasaväkiseen joukkueeseen, ja pisteet lasketaan maaliintulojärjestyksestä — ei yksilön sarjasijoituksesta. Voi ajaa yksittäisenä iltana ilman sarjarakennetta.

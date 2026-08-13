@@ -35,6 +35,7 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 - [RCF Cupin järjestäjäohje](ORGANIZER_CHECKLISTS/how_to_run_rcf_cup.md)
 - [RCF-joukkuekisan järjestäjäohje](ORGANIZER_CHECKLISTS/how_to_run_rcf_team_race.md)
 - [WTRL TTT -järjestäjäohje](ORGANIZER_CHECKLISTS/how_to_run_wtrl_ttt.md)
+- [Zwift-eventin tilaaminen Zwiftiltä](ORGANIZER_CHECKLISTS/how_to_order_zwift_event.md)
 - [RCF Cup -pääviestipohja](ORGANIZER_CHECKLISTS/templates/rcf_cup_announcement_template.md)
 
 ## Ei wikissä — jäi elämään Discordiin

@@ -25,6 +25,7 @@ Jokaisessa checklistissä on: `Ennen`, `Julkaisu`, `Viimeinen viikko`, `Tapahtum
 - [how_to_run_wtrl_ttt.md](how_to_run_wtrl_ttt.md)
 - [how_to_run_kruunajaiset.md](how_to_run_kruunajaiset.md)
 - [how_to_run_rcf_cup.md](how_to_run_rcf_cup.md)
+- [how_to_order_zwift_event.md](how_to_order_zwift_event.md)
 - [templates/rcf_cup_announcement_template.md](templates/rcf_cup_announcement_template.md)
 
 ## Käyttö

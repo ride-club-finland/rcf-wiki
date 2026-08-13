@@ -25,12 +25,13 @@ Mitä työkaluja, lomakkeita, taulukoita, kanavia ja ulkoisia alustoja seuran to
 
 - **Kruunajaisten veikkaus- ja osallistujataulukko**: uusiokäyttökelpoinen pohja tuleville Kruunajaisille.
 - **Toiminnan kehittämisen palautekyselyt**: aloittelijoiden huomiointi, naisten mukaan saaminen ym.
-- **Zwift-eventtien tilaus-Excel**: kilpailutoiminnan keskeinen prosessiresurssi (Excel-pohja + sähköpostiprosessi).
+- **Zwift-eventtien tilaus-Excel** (`Zwift Events.xlsx`): Zwiftin oma Event Request Form, lähetetään liitteenä sähköpostitse events@zwift.com:iin uutta eventtisarjaa tilattaessa. Koko tilausprosessi askel askeleelta: [Zwift-eventin tilaaminen Zwiftiltä](../ORGANIZER_CHECKLISTS/how_to_order_zwift_event.md).
 
 ## Zwift ja ZwiftPower
 
 - **ZwiftPower-tiimikuvaus**: viestintä- ja onboarding-resurssi, auttaa löytämään RCF:n kanavat.
 - **Zwift-ajoasun tilauslomake ja automaatio**: Google Form + Sheet + skripti, käsittelee Zwift ID -tunnisteita. Tämä on tili-/tunnisterajapinta, joten sen omistajuus ja käyttöoikeudet pitää olla nimetty ylläpidon toimesta.
+- **ZwiftPowerin League-työkalu**: RCF Cupin pisteytys lasketaan tällä, ei käsin taulukolla. Oikeudet haetaan ZwiftPowerin omalla lomakkeella, eivät RCF:n Discord-roolien kautta — tällä hetkellä yhden henkilön tilin varassa. Käyttöohje ja riski tarkemmin: [RCF Cup ja kilpailutoiminnan prosessi](../TAPAHTUMAT/competition_process_rcf_cup.md#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta).
 
 ## Seuravaatteet
 
@@ -65,3 +66,4 @@ Seuraavia ei ole tuotu tähän dokumenttiin, koska ne joko vanhenevat nopeasti t
 - Sesh-premiumin maksutapa ja palautusoikeus.
 - Zwift-ajoasulomakkeen ja -skriptin omistaja.
 - Linkkirekisterin omistaja (ks. [wiki-päätös](../meta/wiki_decision.md) — linkit itsessään eivät ole wikissä).
+- ZwiftPowerin League-työkalun varahenkilö — oikeudet ovat tällä hetkellä yhden tilin varassa.

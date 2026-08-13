@@ -31,7 +31,7 @@ Sama henkilö voi hoitaa useita rooleja pienessä seurassa, mutta vastuu kannatt
 - **Discord-ylläpito**: kattaa myös sen, kuka tarkistaa massa-pingausoikeudet ja hyväksyy kanavarakenteen muutokset.
 - **Sesh-vastuu**: kattaa premium-maksutavan ja sen, kuka saa luoda Sesh-eventtejä.
 - **Alustaoikeuksien hallinta**: kriittisimmät oikeudet tarvitsevat varahenkilön, ja niille pitää olla poistoprosessi kun henkilö jää pois aktiivitoiminnasta.
-- **Kilpailujärjestäjä**: ei ole vain eventin tilaaja — rooliin kuuluu myös säännöt, kategoriat, tulokset, vastapuolten kontaktointi ja jälkidokumentointi.
+- **Kilpailujärjestäjä**: ei ole vain eventin tilaaja — rooliin kuuluu myös säännöt, kategoriat, tulokset, vastapuolten kontaktointi ja jälkidokumentointi. Tähän kuuluu myös ZwiftPowerin League-työkalu, jolla RCF Cupin pisteytys hoidetaan — oikeudet siihen ovat tällä hetkellä yhden henkilön tilin varassa, ei jaettu roolina (ks. [kilpailutoiminnan prosessi](../TAPAHTUMAT/competition_process_rcf_cup.md#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta)).
 - **Viestintävastuu**: kattaa myös sen, ettei jäsenpolku jää liian kilpailukeskeiseksi — aloittelija- ja matalan kynnyksen viestintä kuuluu tähän rooliin.
 
 ## Seuraava askel

@@ -9,7 +9,7 @@ last_verified: 2026-08-13
 
 # RCF Cupin järjestäjäohje
 
-Käytännön versio [RCF Cup ja kilpailutoiminnan prosessi -dokumentista](../TAPAHTUMAT/competition_process_rcf_cup.md). Ei vielä kata kaikkia teknisiä eventtien tilausvaiheita täydellisesti — ks. Avoinna-osio.
+Käytännön versio [RCF Cup ja kilpailutoiminnan prosessi -dokumentista](../TAPAHTUMAT/competition_process_rcf_cup.md). Osakilpailujen tilaaminen Zwiftin julkiseen kalenteriin: [Zwift-eventin tilaaminen Zwiftiltä](how_to_order_zwift_event.md).
 
 ## Ennen
 
@@ -18,6 +18,8 @@ Käytännön versio [RCF Cup ja kilpailutoiminnan prosessi -dokumentista](../TAP
 3. Päätä kategoriat ja tulosten ryhmittely.
 4. Testaa ajoitus osallistujien saatavuuden kannalta.
 5. Nimeä järjestäjä, viestijä ja tulosvastaava.
+6. Jos osakilpailut ovat julkisia Zwift-eventtejä, tilaa sarja Zwiftin tapahtumatiimiltä hyvissä ajoin (n. 2 viikkoa ennen ensimmäistä kisaa) — ks. [tilausohje](how_to_order_zwift_event.md). Jos osakilpailut ajetaan RCF Club -eventteinä, luonti hoituu Zwift Clubin omalta moderaattoripaneelilta.
+7. Varmista, että tulosvastaavalla on ZwiftPowerin **League**-työkalun admin-oikeudet (haetaan ZwiftPowerin omalla League-pyyntölomakkeella, ei RCF:n Discord-roolien kautta) tai käyttöoikeus jo olemassa olevaan liigaan. Ks. [ZwiftPowerin League-työkalu](../TAPAHTUMAT/competition_process_rcf_cup.md#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta).
 
 ## Julkaisu
 
@@ -38,8 +40,8 @@ Käytännön versio [RCF Cup ja kilpailutoiminnan prosessi -dokumentista](../TAP
 
 ## Tulokset
 
-1. Hae osakilpailun tulokset, laske pisteet sovitulla mallilla, päivitä kokonaiskilpailun tilanne.
-2. Julkaise tulokset Discordissa, kerro jos alustavia, korjaa virheet läpinäkyvästi.
+1. Hae osakilpailun tulokset ZwiftPowerin League-liigasta (`zwiftpower.com/league.php?id=...`) — pisteet lasketaan siellä automaattisesti, ei käsin taulukkoon. Jos yksittäinen tulos pitää korjata tai poistaa, se onnistuu samasta työkalusta.
+2. Julkaise pistetilanne liigalinkin kautta Discordissa, kerro jos alustavia, korjaa virheet läpinäkyvästi.
 
 ## Jälkihoito
 
@@ -49,6 +51,6 @@ Käytännön versio [RCF Cup ja kilpailutoiminnan prosessi -dokumentista](../TAP
 
 ## Avoinna
 
-- Nykyinen tekninen tapa luoda/tilata Zwift-eventit, ja kuka saa luoda RCF Club -eventtejä.
-- Kokonaispistetaulukon ylläpitäjä ja arkistointipaikka.
+- Kuka saa luoda RCF Club -eventtejä (erillinen prosessi julkisten Zwift-eventtien tilaamisesta, ks. [tilausohje](how_to_order_zwift_event.md) Avoinna-kohta).
+- ZwiftPowerin League-työkalun varahenkilö — oikeudet ovat tällä hetkellä yhden tilin varassa (ks. [riski](../TAPAHTUMAT/competition_process_rcf_cup.md#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta)).
 - Minimi osallistujamäärä sarjan aloittamiseen, paras viikonpäivä.

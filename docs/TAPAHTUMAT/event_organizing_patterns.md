@@ -17,7 +17,7 @@ Yleismalli sille, miten RCF:n tapahtumat yleensä etenevät — riippumatta siit
 2. Ydinvastuu nimetään vähintään roolitasolla.
 3. Päätetään tapahtumatyyppi (ks. alla).
 4. Valitaan kalenteri-, ilmoittautumis- ja tulosmalli.
-5. Luodaan tai tilataan tarvittavat Zwift-/Discord-eventit.
+5. Luodaan tai tilataan tarvittavat Zwift-/Discord-eventit — julkiselle Zwift-eventille ks. [tilausohje](../ORGANIZER_CHECKLISTS/how_to_order_zwift_event.md).
 6. Julkaistaan pääviesti tai tapahtumailmoitus.
 7. Kerätään osallistuja-/kategoriatiedot vain järjestelyyn tarpeellisessa laajuudessa.
 8. Hoidetaan tapahtumapäivän viestintä.
