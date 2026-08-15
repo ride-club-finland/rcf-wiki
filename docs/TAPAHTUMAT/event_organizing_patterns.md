@@ -4,7 +4,7 @@ wiki_category: TAPAHTUMAT
 related_gold_docs: [competition_process_rcf_cup, event_playbook_kruunajaiset, roles_and_responsibilities]
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # Tapahtumien järjestämismallit
@@ -32,6 +32,15 @@ Yleismalli sille, miten RCF:n tapahtumat yleensä etenevät — riippumatta siit
 | Kilpailusarja | Erillinen päätös kestosta, osakilpailuista, pisteytyksestä ja tulospalvelusta ennen julkaisua | RCF Cup |
 | Ulkoisen järjestelmän tiimikisa | RCF ei omista alustaa, vaan kokoaa joukkueen ja hoitaa viestinnän | WTRL TTT |
 | Erikoistapahtuma / kampanja | Vaatii enemmän viestinnän, kumppanuuksien ja resurssien tarkistusta kuin tavallinen seurakisa | Seurojen väliset haasteet, hyväntekeväisyystapahtumat |
+
+## Esimerkkejä toteutuneista tapahtumista
+
+Jokaisessa tapahtumakohtaisessa playbookissa on nyt oma "Esimerkkipolku"-osio, joka kävi läpi yhden todellisen toteutuksen konkreettisine päivämäärineen, osallistujamäärineen ja ongelmineen — käytä näitä referenssinä sen sijaan että arvaat, miltä prosessi käytännössä näyttää:
+
+- [Kruunajaiset 2026 — etappipäivän kulku](event_playbook_kruunajaiset.md#esimerkkipolku-yhden-etappipaivan-kulku-2026) ja [2025 kategoriariski](event_playbook_kruunajaiset.md#konkreettinen-kategoriariski-tapaus-2025)
+- [RCF-joukkuekisa — viikoittainen sarja loka-marraskuussa 2025](event_playbook_rcf_team_race.md#esimerkkipolku-viikoittainen-sarja-loka-marraskuu-2025)
+- [RCF vs SZR — koko prosessi elokuusta marraskuuhun 2025](event_playbook_rcf_vs_sz.md#esimerkkipolku-koko-prosessi-elokuusta-marraskuuhun-2025)
+- [RCF Cup — tammikuun 2026 sarja](competition_process_rcf_cup.md#esimerkkipolku-tammikuun-2026-cup)
 
 ## Toistuvat resurssit
 

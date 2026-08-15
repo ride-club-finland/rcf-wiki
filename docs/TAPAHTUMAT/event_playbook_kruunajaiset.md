@@ -6,7 +6,7 @@ related_gold_docs:
   - how_to_run_kruunajaiset
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # Kruunajaiset — tapahtumaplaybook
@@ -71,11 +71,34 @@ Käytä scratch racea, jos tavoite on matala järjestämiskynnys. Käytä etappi
 
 ## Aktivointimallit
 
-**Haasteet** (2024): osallistuja haastaa saman vauhtikategorian tiimikaverin. Sopii kun osallistujia on riittävästi kategorioittain, kirjaamiseen on työkalu ja joku omistaa julkaisun/purun.
+**Haasteet** (2024): osallistuja haastaa saman vauhtikategorian tiimikaverin oman Streamlit-sovelluksen kautta (haastaja valitsee haastettavan, painaa "Challenge", haaste ja lopputulos julkaistaan kanavalla). Toimi hyvin jo pienelläkin osallistujamäärällä (2024 A-kategoriassa vain muutama ajaja), mutta vaatii oman ylläpidetyn sovelluksen — kertaluonteinen työkaluinvestointi, joka ei uusiudu itsestään.
 
-**Veikkaus** (2025): ennakkopöhinä + oma pistekilpailu Sheetissä. Sopii kun osallistujalistat näkyvät ajoissa, kategoriat ovat vakaat ja joku omistaa pisteiden tarkistuksen. Kopioi edellisen vuoden Sheet pohjaksi uudelle vuodelle sen sijaan että sotketaan vanhaa.
+**Veikkaus** (2025): ennakkopöhinä + oma pistekilpailu Google Sheetsissä, jossa jokainen veikkaa jokaisen kategorian top 3:n pudotusvalikoilla. Konkreettinen pistemalli, joka on käytetty kahtena vuonna peräkkäin ja toiminut sellaisenaan:
+- oikea kilpailija oikealla sijalla: 3 pistettä
+- veikattu kilpailija sijoittuu top 3:een mutta väärälle sijalle: 1 piste
+- "Jokeri" (yllätysnimi) top 3:ssa: 5 lisäpistettä, jos Jokeri oli mukana omassa veikkauksessa
+- maksimi ilman Jokereita: 9 pistettä/kategoria (3+3+3)
+
+Aikataulu käytännössä: veikkaustaulukko avataan heti pääilmoituksen yhteydessä (6-7 viikkoa ennen), Jokerit julkistetaan vasta noin viikkoa ennen kisaa kun osallistujalista on jo suurin piirtein vakiintunut, ja veikkaus suljetaan kisa-aamuna — 2025-toteutuksessa klo 10:30, kun kisa starttasi klo 11:00. Käytännön kitka jota kannattaa varautua hoitamaan manuaalisesti: taulukko ei päivity automaattisesti Zwift-ilmoittautumisten mukaan, joten uudet osallistujat pitää lisätä kilpailijalistaan käsin aina kun joku ilmoittautuu myöhässä.
+
+Sopii kun osallistujalistat näkyvät ajoissa, kategoriat ovat vakaat ja joku omistaa pisteiden tarkistuksen. Kopioi edellisen vuoden Sheet pohjaksi uudelle vuodelle sen sijaan että sotketaan vanhaa.
 
 Valitse seuraavaan toteutukseen ensisijainen malli; jos käytetään molempia, jaa omistajuudet erikseen.
+
+## Esimerkkipolku: yhden etappipäivän kulku (2026)
+
+Konkreettinen läpivienti siitä, miltä 6 viikon valmistelu ja yksi etappipäivä näyttivät, kun formaatti vaihdettiin scratch racesta kolmen etapin kokonaiskilpailuksi:
+
+- **19.1.2026 (7 viikkoa ennen)** — pääilmoitus julkaistiin heti täydellisenä: kisapäivä (la 7.3.2026), rata-alue, kaikkien kolmen etapin startit ja kestot, sekä pisteytys toisessa seurantaviestissä samana päivänä. Formaattia tai pisteytystä ei siis rakennettu julkisesti viikkojen mittaan, vaan lyötiin lukkoon kerralla.
+- **Etappiaikataulu**: Etappi 1 iTT klo 10:00 (henkilökohtainen aika-ajo, 7,1 km, startit 15 s välein, ei draftia), Etappi 2 Crit klo 10:40 (16,3 km, 4 kierrosta, powerupit päällä), Etappi 3 Road Race klo 11:30 (22,5 km, powerupit päällä). Etappien väli oli käytännössä 25-40 minuuttia; jälkipalautteessa useampi osallistuja piti sitä liian pitkänä ja toivoi jatkossa noin 20 minuutin väliä.
+- **Pisteytys** kerrottiin heti pääilmoituksen yhteydessä, ei vasta lähempänä kisaa: sijat 1-20 pistein 50, 46, 43, 39, 37, 35, 33, 31, 29, 27 ja siitä laskien portaittain sijaan 20 asti (7 pistettä), sija 21 = 5 pistettä, sijat 22-23 = 4, sijat 24-26 = 3, sijat 27-30 = 2, DNS/DNF = 0. Sama taulukko toistuu tammikuun RCF Cupissa (ks. [kilpailuprosessi](competition_process_rcf_cup.md)) — kannattaa jatkossa käyttää samaa vakiotaulukkoa kaikissa pistemuotoisissa RCF-kisoissa, ettei sitä keksitä joka kerta uudestaan.
+- **Kaksi teknistä ongelmaa, joihin kannattaa varautua etukäteen**: (1) ensimmäisen etapin osallistujat eivät näkyneet ZwiftPowerissa heti kisan jälkeen — järjestäjä ilmoitti varasuunnitelman (ajat kerätään tarvittaessa Stravasta), ja ongelma korjaantui itsestään seuraavana päivänä, kun kaikki kolme eventtiä ilmestyivät ZwiftPoweriin kerralla. (2) Kisalinkki oli päätynyt myös RCF:n ulkopuolelle — osallistujalistalla näkyi kisaajia, joita ei löytynyt Discordista. Ratkaisu oli sallia osallistuminen mutta merkitä näiden tulos etukäteen ilmoitetusti DQ:ksi.
+- **Lead-in-sekaannus**: iTT-etapin 0,2 km:n lead-in-matka näkyi eri tavalla eri osallistujien live-ajoissa, mikä aiheutti jälkikäteen epäselvyyttä lopullisista aikaeroista. Kannattaa mainita lead-in-käytäntö jo pääilmoituksessa, jotta osallistujat osaavat tulkita omia aikojaan oikein.
+- **Tulosten julkaisu**: lopulliset tulokset ja voittajat julkaistiin kisapäivänä heti kolmannen etapin jälkeen, ja top 3 -kehykset pyydettiin tekemään viikonlopun aikana yksityisviestillä lähetetyistä profiilikuvista.
+
+## Konkreettinen kategoriariski-tapaus (2025)
+
+Kategoriariski (ks. yllä) ei ole hypoteettinen: 2025-toteutuksessa yksi kuski nousi Zwiftin automaattiluokituksessa ylempään kategoriaan kisaviikolla, mutta oli jo ehtinyt ilmoittautua alkuperäiseen kategoriaansa — koska kisa oli tehty tavallisena Club Eventinä, järjestelmä ei estänyt alempaan kategoriaan ilmoittautumista eikä pakottanut siirtoa. Järjestäjä joutui siirtämään osallistujan manuaalisesti sekä veikkaustaulukossa että Zwift-ilmoittautumisessa, ja kertoi kanavalla avoimesti, että "kategoriasotku on oma moka, kun kisa tehtiin club eventtinä eikä osattu ennakoida kategorianousuja." Toisessa vastaavassa tapauksessa samalla viikolla osallistuja nousi kategoriassa mutta jäi tietoisesti alkuperäiseen lähtöönsä — tämä hyväksyttiin sellaisenaan, koska sääntöä ei ollut lyöty lukkoon etukäteen. Molemmat tapaukset syntyivät tilanteessa, jossa Zwift Racing Score muuttui elokuun ja maaliskuun välissä useaan otteeseen ilman että kukaan aktiivisesti seurasi sitä ennen kisaviikkoa.
 
 ## Kategoriariski — keskeinen opittu asia
 

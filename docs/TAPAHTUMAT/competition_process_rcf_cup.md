@@ -7,7 +7,7 @@ related_gold_docs:
   - how_to_run_wtrl_ttt
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # RCF Cup ja kilpailutoiminnan prosessi
@@ -31,6 +31,8 @@ Tammikuun 2026 malli on käyttökelpoinen sarjapohja:
 Suositus: käytä pistepohjaista kokonaiskilpailua jos halutaan sallia yhden osakilpailun väliin jättäminen; päätä etukäteen lasketaanko kategoriat yhdessä vai erikseen; kirjaa pisteasteikko ja tasapistesäännöt pääilmoitukseen; julkaise tulospaikka ennen ensimmäistä osakilpailua. Ks. valmis [pääviestipohja](../ORGANIZER_CHECKLISTS/templates/rcf_cup_announcement_template.md).
 
 Stage-linkit ovat väliaikainen tiedotusratkaisu, ei pysyvä dokumentointi — yksittäiset linkit saavat olla Discordissa, mutta niitä ei viedä tähän dokumenttiin.
+
+Zwiftissä on kuitenkin yksi pysyvä, uudelleenkäytettävä linkkityyppi: **tapahtumatagi**. RCF Cupin eventit on merkitty tagilla `rcfcup`, jolloin `zwift.com/uk/events/tag/rcfcup` näyttää aina kaikki sarjan tulevat eventit yhdellä pysyvällä linkillä — ei tarvitse jakaa yksittäisiä stage-linkkejä uudelleen joka viikko. Sama malli on käytössä myös muissa toistuvissa RCF-sarjoissa: `tag/rcfkuutar` (naisten kisasarja) ja `tag/rcfcategoryspotlight` (viikoittainen matalan kynnyksen kisa). Ks. [resurssi-inventaario](../YLLAPITO/resource_inventory.md#pysyvat-linkit-ja-tunnisteet).
 
 ### ZwiftPowerin League-työkalu — pisteytyksen käytännön hallinta
 
@@ -58,6 +60,8 @@ RCF kokoaa joukkueita WTRL:n omiin tapahtumiin — tämä ei ole sama prosessi k
 
 Pysyvät elementit: joukkueen koko 3-8 ajajaa, Race Pass ilmoittautumislinkkinä (ei viedä Goldiin/wikiin), joukkue voi olla sekajoukkue, Coffee Class määräytyy WTRL:n logiikalla, kokoonpano voi vaihtua viikoittain.
 
+**Konkreettinen sääntö, joka on toistuvasti aiheuttanut kysymyksiä**: joukkueen aika lasketaan tietyn kuskin maalintulosta — jos joukkueessa on 5-8 ajajaa, ajaksi lasketaan neljännen maaliin tulleen aika; jos 3-4 ajajaa, kolmannen aika. Sekajoukkueessa saa olla korkeintaan 3 A-, B- tai C-kategorian ajajaa; D-kategorian ajajien määrää ei ole rajattu. Joukkueen lopullinen Coffee Class -luokka (esim. Frappe) määräytyy automaattisesti kisan jälkeen korkeimman mukana olleen kategorian perusteella, ei ilmoittautumisvaiheen arviosta — tämä on hämmentänyt järjestäjiäkin ("en mä mitään ymmärrä, toivottavasti joku tästä jotain tietää"), joten se kannattaa selittää osallistujille etukäteen sen sijaan että selvitetään kisan jälkeen. Käytännössä ajopaidaksi on vakiintunut Zwiftin Basic3, ja ilmoittautuminen hoidetaan reagoimalla kanavan Sesh-tapahtumaan ja sen jälkeen leimaamalla RacePass ennen kisan alkua.
+
 Käytännön ohje: [how_to_run_wtrl_ttt.md](../ORGANIZER_CHECKLISTS/how_to_run_wtrl_ttt.md).
 
 ## TalviCup ja ulkoiset sarjat
@@ -69,6 +73,17 @@ TalviCupin *tuleva* muoto (esim. talvikausi 2026-2027 -yhteistyö muiden seuroje
 ## Historialliset rosterit ja taulukot
 
 Vanhoja pinned-taulukoita voi käyttää prosessihistorian ymmärtämiseen, mutta niitä ei julkaista sellaisenaan. Henkilölistat pysyvät admin-review-tasolla; taulukoista nostetaan tähän vain prosessirakenne (kalenteri, osakilpailut, kategoriat, ilmoittautumistapa).
+
+## Esimerkkipolku: tammikuun 2026 Cup
+
+Konkreettinen läpivienti yhdestä toteutuneesta sarjasta, jotta "päätä pisteytys, DNF/DNS-sääntö, tasapistesääntö" -ohje muuttuu kokemukseksi eikä pelkäksi checklist-riviksi:
+
+- **3.12.2025 (n. 4 viikkoa ennen)**: pääviesti julkaistiin heti täydellisenä — sarjan kesto (5 osakilpailua, lauantaisin 3.1.-31.1.2026), pisteytysmalli (4 parasta 5:stä lasketaan loppupisteisiin), DNF/DNS = 0 pistettä, sekä koko pisteasteikko (1. = 50, 2. = 46, 3. = 43 … sija 20 = 7, sijat 21-40 = 5, 41+ = 3) ja tasapistesääntö (paras yksittäinen sijoitus ratkaisee, sitten seuraavaksi paras, viimeisenä viimeisen kisan tulos). Tämä sama pisteasteikko on käytössä myös Kruunajaisten etappiformaatissa (ks. [Kruunajaiset-playbook](event_playbook_kruunajaiset.md)) — kannattaa pitää yhtenä vakiotaulukkona koko RCF:n kisatoiminnassa.
+- **Osallistujamäärän kasvu viikon sisällä**: ensimmäistä stagea edeltävänä päivänä ilmoittautuneita oli 58; järjestäjä arvioi määrän nousevan yli sadan seuraavaan aamuun mennessä, koska osa osallistujista on "drop-on"-kuskeja, jotka ajavat vain yhden osakilpailun täydestä sarjasta huolimatta.
+- **Kategoriasääntö, joka kannattaa kertoa etukäteen**: jos osallistuja vaihtaa kategoriaa kesken sarjan, kertyneet pisteet **eivät** siirry mukana — ne nollautuvat ja alkavat kasvamaan alusta uudessa kategoriassa. Tämä on tullut esiin osallistujakysymyksenä joka kaudella, joten se kannattaa mainita jo pääviestissä.
+- **Pistetilanne julkaistiin ZwiftPowerin League-linkillä** jokaisen stagen jälkeen samalla kanavalla (ks. [League-työkalu](#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta)) — ei erillistä taulukkoa käsin ylläpidettynä.
+- **Yksi tekninen keskeytys**: yhden osallistujan kisa keskeytyi kesken stagen laitevian takia (traineri rikkoutui kesken ajon) — tämä käsiteltiin tavallisena DNF:nä ilman erillistä poikkeusta, koska sääntö oli jo etukäteen selkeä.
+- **Sarjan päätös**: tulokset viimeisen stagen jälkeen julkaistiin samalla League-linkillä, ja kanavalle jäi kiitosviesti sekä lyhyt yhteenveto osallistujilta — ei erillistä koostedokumenttia, koska League-näkymä toimii sellaisenaan lopullisena arkistona niin kauan kuin liiga pysyy ZwiftPowerissa.
 
 ## Osallistujamäärä ja ajoitus
 

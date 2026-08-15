@@ -6,7 +6,7 @@ related_gold_docs:
   - how_to_run_rcf_team_race
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # RCF-joukkuekisa — tasajoukkueiden sisäinen playbook
@@ -61,6 +61,30 @@ Toimii parhaiten kun joukkueilla on oma neuvottelupaikka (puhekanava, ajopaidat,
 13. Kirjaa opit seuraavaa kertaa varten.
 
 Askel-askeleelta-versio: [how_to_run_rcf_team_race.md](../ORGANIZER_CHECKLISTS/how_to_run_rcf_team_race.md).
+
+## Vakiintuneet nimeämiskäytännöt ja työkalut
+
+Nämä ovat toistuneet samanlaisina useammassa toteutuksessa, joten kannattaa käyttää samaa mallia jatkossakin sen sijaan että keksitään uudestaan joka kerta:
+
+- **Ajankohta**: Sesh-äänestys (Time Finder) RCF:n palvelimella — kuka tahansa voi luoda äänestyksen, ei vaadi admin-oikeuksia.
+- **Ilmoittautuminen**: Zwift-eventin oma osallistujalista (companion-appista tai zwift.comista), ei erillinen lomake.
+- **Joukkuekanavat**: yksityiset Discord-kanavat nimillä **"a-tiimi"** ja **"b-tiimi"** taktiikan suunnitteluun. Vanha kanava poistetaan ja luodaan uudestaan tyhjänä joka kisakertaa varten — keskusteluhistoria on siis tarkoituksella katoavaa, ei arkistoitavaa.
+- **Paidat**: joukkue A käyttää Zwiftin Basic1-paitaa, joukkue B Basic2-paitaa (kolmannelle joukkueelle on käytetty Basic3:a). Paita vaihdetaan _ennen_ eventtiin liittymistä — muuten vaihto ei näy muille osallistujille (tunnettu Zwift-bugi).
+- **Radiokanavat**: joukkueen omat äänikanavat, nimetty kaavalla `kat-a-kisaradio` / `kat-b-kisaradio`.
+- **Joukkuejako**: tasataan ZRS-pisteiden ja vauhtikategorian mukaan. Käytännössä jako on tehty tekoälyavusteisesti (esim. pyytämällä kielimallilta ehdotus annetulla osallistujalistalla ja ZRS-pisteillä), minkä jälkeen ehdotusta on vielä säädetty käsin muutaman kuskin verran, jos ajotyyli (esim. montako saman kategorian mäkikuskia samassa joukkueessa) sitä vaatii. Pelkkä ZRS ei aina anna oikeaa kuvaa yksittäisestä kuskista, joten viimeinen tasapainotus kannattaa tehdä ihmisarviolla.
+- **Pisteiden laskenta**: kisapäivän tulos lasketaan valmiilla Google Sheets -laskurilla (maaliintulojärjestys → pisteet, käyttöohje laskurin sisällä). Sama pohja soveltuu myös taktiikan ennakkosuunnitteluun ennen kisaa.
+- **Kausittainen pistelista**: yksittäisten kisojen lisäksi on pidetty yllä kevyttä, hauskuuteen tähtäävää kausipistelistaa (Sheets), johon on jaettu myös "erikoispisteitä" hyvistä suorituksista kisan ulkopuolella (esim. hauska keskeytys) — tarkoituksella ei täysin ennustettava, jotta hupi säilyy.
+
+## Esimerkkipolku: viikoittainen sarja (loka-marraskuu 2025)
+
+Näin yksi konkreettinen kolmen viikon sarja eteni käytännössä — hyvä referenssi sille, missä tahdissa asiat oikeasti tapahtuvat:
+
+- **Maanantai/tiistai**: Sesh-äänestys avataan seuraavien 1-2 viikonlopun ajoista. Ensimmäisellä kerralla kaksi vaihtoehtoista päivää testattiin rinnakkain, koska äänet jakautuivat.
+- **Ilmoittautumisen kertymä**: osallistujamäärä kasvoi tasaisesti läpi viikon — 14 hlöä keskiviikkona, 17 perjantaina, ja lopullinen määrä vasta lauantaiaamuna kun viime hetken ilmoittautumisia ja perumisia vielä tuli. Tästä syntyi käytännön nyrkkisääntö osallistujamäärän kasvaessa: **noin 20 varmaa osallistujaa on raja, jonka jälkeen kannattaa harkita kahden joukkueen sijaan kolmea** — alle sen 3 joukkuetta johtaa liian suuriin tasoeroihin joukkueiden sisällä, ja 2 joukkuetta antaa selkeämmän taktisen asetelman.
+- **Joukkueiden lukitseminen**: jako julkaistiin ja lukittiin torstai-iltana (2-3 päivää ennen kisaa), mutta jätettiin tarkoituksella vielä muutettavaksi perjantaihin asti epävarmojen ilmoittautumisten takia. Käytännössä lukitseminen vahvistettiin nopealla emoji-äänestyksellä kanavalla.
+- **Kisapäivä**: paidat ja puhekanava sovittiin viestillä juuri ennen lähtöä ("Basic 1 päälle", "kympiltä startti"), koska tarkkaa erillistä pääviestipohjaa ei ole — tämä on yksi asia, jonka voisi jatkossa vakioida.
+- **Tulos**: julkaistiin heti kisan jälkeen laskurin ja ZwiftPower-tulosten pohjalta, tarkennettuna kun ZwiftPower päivittyi (viive muutamia minuutteja - tunteja).
+- **Formaatin elää mukana**: kolmannella viikolla osa osallistujista muodosti orgaanisesti oman kolmannen "alueellisen" joukkueen suurten osallistujamäärien takia — järjestäjä hyväksyi tämän kevyesti sen sijaan että pakotti alkuperäiseen kaksijakoon, ja teki jaon molemmilla vaihtoehdoilla (2 vs. 3 joukkuetta) nähtäväksi ennen lopullista päätöstä.
 
 ## Roolit
 

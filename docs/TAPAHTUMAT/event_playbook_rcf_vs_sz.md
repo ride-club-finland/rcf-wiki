@@ -6,7 +6,7 @@ related_gold_docs:
   - event_playbook_rcf_team_race
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # RCF vs SZR — tapahtumaplaybook
@@ -48,6 +48,26 @@ Ennen kilpailua pitää päättää: montako kuskia per seura pisteyttää yhdes
 ## Opit 2025
 
 Ensimmäinen toteutus oli järjestäjälle raskas, koska samalla rakennettiin formaatti, säännöt, joukkuejako, tasorajatyökalu, vastapuoliyhteys, eventit, visuaalit, stream ja tulosprosessi. **Suurin parannus seuraavalle kerralle on vastuiden jakaminen** useammalle nimetylle roolille selkeän ehdotuksen ja sisäisen osallistujakartoituksen avulla ennen vastapuolen kontaktointia.
+
+## Esimerkkipolku: koko prosessi elokuusta marraskuuhun (2025)
+
+Tämä on ensimmäisen toteutuksen todellinen aikajana — hyvä pohja sille, paljonko aikaa mikäkin vaihe todella vei, ja missä järjestyksessä päätökset oikeasti syntyivät.
+
+**Elokuun alku — kiinnostuksen kartoitus.** Kanava avattiin, ja ensimmäinen viesti oli pelkkä emoji-äänestys kategorioittain ("klikatkaa oman kategorian ikonia") ilman vielä minkäänlaista kisamuotoa lukossa. Tässä vaiheessa mietittiin ääneen jo kysymys, joka toistuu joka formaattikeskustelussa: käytetäänkö wattikategoriaa vai ZRS-pisteitä.
+
+**Elokuun puoliväli — formaattiluonnos ennen vastapuolen kontaktointia.** Järjestäjä hahmotteli ensimmäisen kokonaisen sääntöehdotuksen (kategoriat A-D, joukkueen maksimikoko, 5 parhaan tuloksen lasku jos joukkue vajaa, sijoituspisteet 20→1, kategoriavoitosta seuran voitto, tasapelissä kokonaispisteet ratkaisee) *ennen* kuin mitään oli sovittu SZR:n kanssa — tämä vastaa suoraan yllä olevan järjestämisen kulun kohtaa 1 ja 5. Ehdotusta hiottiin julkisesti kanavalla parin päivän ajan: yhteisö ehdotti mm. että vajaan joukkueen pistelasku voisi joustaa suhteessa vastustajan kokoon, mitä lopulta sovellettiin.
+
+**Elokuun loppu — kategoriarajojen sijaan Racing Score -kolmijako.** Kun kävi ilmi, ettei perinteinen A-D-jako tuottaisi tasaisia joukkueita (RCF pieni seura, SZR ~4900 jäsentä), formaatti vaihdettiin kolmeen ZRS-pohjaiseen tasoryhmään. Ilmoittautuminen kerättiin Google Sheetillä, joka pidettiin auki kaksi viikkoa ja jonka jälkeen kategoriarajat lukittiin ennen kuin ne ilmoitettiin SZR:lle — rajat pyöristettiin tasakymmeniin, jotta ne olivat helposti kommunikoitavissa.
+
+**Syyskuun puoliväli — kaksi kisamuotoehdotusta äänestykseen.** Järjestäjä esitti kaksi vaihtoehtoa: (1) kolme erillistä lähtöä tasoryhmittäin, 10 vs. 10, sijoituspisteet 20→1 per lähtö, kokonaisvoitto vähintään kahdesta kolmesta lähdöstä; (2) yksi 60 hengen massalähtö, jossa kaikki RCF:n kuskit pisteyttävät kaikkia SZR:n kuskeja vastaan kategoriasta riippumatta. Yhteisö keskusteli myös kolmannesta ideasta (chase race, porrastettu lähtö tasoryhmien mukaan) mutta hylkäsi sen, koska kukaan ei ollut koskaan ajanut sellaista eikä lähtöaikaeron laskentaan löytynyt valmista kaavaa — opetus: älä valitse formaattia, jota kukaan järjestäjistä ei tunne etukäteen. Äänestyksen voitti vaihtoehto 1 selvästi, perusteluna helpompi seurattavuus ja joukkuetaktiikan korostuminen.
+
+**Livepistelaskuri — kokeiltiin ja hylättiin etukäteen.** Ennen kisaa selvitettiin sekä manuaalista Google Sheets -laskuria (toiminut aiemmin 5 vs. 5 -kisoissa, mutta ei skaalaudu 10 vs. 10:een) että valmista avoimen lähdekoodin live-pistelaskuria — jälkimmäinen todettiin rikkinäiseksi eikä sitä saatu korjattua. Lopullinen ratkaisu oli yksinkertaisin toimiva: nimetty pistevastaava seurasi ZwiftPowerin tuloksia manuaalisesti "toimitsija-aitiosta" ja julkaisi lopulliset pisteet kanavalle heti kunkin lähdön jälkeen — ei livenä, vaan lähdön päätyttyä.
+
+**Viikko ennen — reconit ja viestintäsopimukset.** Kisaradalle tehtiin kaksi harjoitusajoa (recon-clubeventit torstaina ja perjantaina) ennen kisapäivää. Kisapäivän ajaksi sovittiin, että joukkuekanavat on varattu tiimeille ja nimetyille kisamanagereille mikit auki, muille kuuntelu sallittu mutta mykistettynä, ja yleinen kannustus siirretty omalle puhekanavalleen.
+
+**Kisapäivä (1.11.2025) — tulokset ja tekninen häiriö.** Kolme lähtöä ajettiin peräkkäin, pisteet julkaistiin kanavalle heti kunkin lähdön jälkeen: alin taso hävittiin niukasti, keski- ja ylin taso voitettiin selvästi, kokonaistulos RCF voitti 2/3 lähdöstä ja kokonaispisteet selvästi. Striimi jouduttiin perumaan kesken aamun teknisen vian (reititin ei toiminut) takia — varasuunnitelmaa striimin varalle ei ollut, ja tämä nostettiin itse esiin seuraavaan kertaan korjattavana asiana. Molempien joukkueiden paidat olivat lähes samanväriset, mikä vaikeutti seuraamista — jatkoa varten kannattaa sopia paitojen erottuvuudesta jo etukäteen vastapuolen kanssa.
+
+**Jälkihoito**: tulos, kiitosviesti ja SZR:n vastausviesti julkaistiin kanavalla ja RCF:n somekanavilla saman päivän aikana. Uuden kauden joukkueenmuodostukselle avattiin oma kanava heti seuraavalla viikolla — into jatkaa perinnettä näkyi saman tien myös yhteisön puolelta.
 
 ## Avoinna
 

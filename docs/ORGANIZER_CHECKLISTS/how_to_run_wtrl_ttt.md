@@ -4,7 +4,7 @@ wiki_category: ORGANIZER_CHECKLISTS
 related_gold_docs: [competition_process_rcf_cup]
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # WTRL TTT -järjestäjäohje
@@ -13,9 +13,9 @@ WTRL TTT on ulkoisen järjestelmän tapahtuma, jossa RCF kokoaa ja viestii joukk
 
 ## Ennen
 
-1. Päätä viikko, jolle joukkue kootaan, nimeä Team Manager.
-2. Arvioi alustava osallistujamäärä, päätä tarvitaanko yksi vai useampi joukkue (esim. kevyempi ja kovempi vauhtiryhmä).
-3. Varmista että osallistujat ymmärtävät joukkuekoon (3-8 ajajaa) ja Coffee Class -luokituksen periaatteen.
+1. Päätä viikko, jolle joukkue kootaan, nimeä Team Manager. Joukkueen voi luoda perjantaista alkaen seuraavan viikon torstain kisaan.
+2. Arvioi alustava osallistujamäärä, päätä tarvitaanko yksi vai useampi joukkue (esim. kevyempi ja kovempi vauhtiryhmä — toteutunut malli: yksi A/B/C-painotteinen joukkue ja toinen kevyempi C/D-joukkue samalle illalle).
+3. Varmista että osallistujat ymmärtävät joukkuekoon (3-8 ajajaa) ja Coffee Class -luokituksen periaatteen: **joukkueen aika lasketaan tietyn kuskin maalintulosta** — 5-8 ajajan joukkueessa neljännen maaliin tulleen ajasta, 3-4 ajajan joukkueessa kolmannen ajasta. Sekajoukkueessa saa olla korkeintaan 3 A-, B- tai C-kategorian ajajaa, D-ajajien määrää ei ole rajattu. Coffee Class -luokka (esim. Frappe) määräytyy automaattisesti kisan jälkeen korkeimman mukana olleen kategorian mukaan, ei ilmoittautumisvaiheen arviosta — kannattaa selittää tämä osallistujille etukäteen, koska se on hämmentänyt myös järjestäjiä.
 
 ## Julkaisu
 
@@ -32,9 +32,9 @@ WTRL TTT on ulkoisen järjestelmän tapahtuma, jossa RCF kokoaa ja viestii joukk
 
 ## Tapahtumapäivä
 
-1. Muistuta lähtöajasta, tarkista että osallistujat ovat oikeassa eventissä.
-2. Liity puhekanavalle, sopikaa jonon ja vetovuorojen periaate.
-3. Ajakaa TTT joukkueena; jos osallistuja putoaa, jatkakaa WTRL:n joukkueaikasäännön mukaan.
+1. Muistuta lähtöajasta, tarkista että osallistujat ovat oikeassa eventissä. Sovi yhtenäinen paita (vakiokäytäntö: Zwiftin Basic3) ja mahdollinen numerointi ennen liittymistä, koska paidanvaihto ei näy muille jos se tehdään vasta eventin sisällä.
+2. Liity puhekanavalle, sopikaa jonon ja vetovuorojen periaate — erityisesti nousuille kannattaa nimetä joku, jolla on kapasiteettia vetää tasaisemmin, jotta heikommat pysyvät peesissä pidempään.
+3. Ajakaa TTT joukkueena; jos osallistuja putoaa, jatkakaa WTRL:n joukkueaikasäännön mukaan (ks. yllä oleva 3.-4. maaliintulijan sääntö).
 
 ## Tulokset
 

@@ -4,7 +4,7 @@ wiki_category: JASENPOLKU
 related_gold_docs: [discord_operating_model]
 publishability: public_candidate
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-08-15
 ---
 
 # Jäsenen FAQ ja onboarding-polku
@@ -51,6 +51,8 @@ Kun olet mukana toiminnassa vakituisemmin, kannattaa myös aktivoida RCF:n Zwift
 ## Matalan kynnyksen kilpailupolku
 
 Ensimmäinen kisa saa olla kevyt kokeilu — maaliin pääseminen riittää tavoitteeksi. Kapeammat kategoriat voivat rauhoittaa menoa, omalla tasolla ajaminen on täysin hyväksyttävää, ja kysyminen on normaalia. Ei tarvitse olla kovassa kunnossa aloittaakseen.
+
+Yksi konkreettinen tapa madaltaa kynnystä: pyydä kokenutta kuskia radiolle mukaan ensimmäiseen tai varhaiseen kisaasi neuvomaan reaaliajassa (missä kohtaa levätä, miten sijoittua ryhmässä, miten jaksottaa tehot mäkiin). Kysy rohkeasti help-deskissä tai omalla kategoriakanavallasi — moni kokenut kuski auttaa mielellään, kunhan asiaa kysytään.
 
 !!! info "Ennen jäsenille julkaisua"
     Tämä on ainoa dokumentti tässä wikissä, joka on merkitty julkaisukandidaatiksi (`publishability: public_candidate`) — tarkoitus on näyttää se jäsenille sellaisenaan. Sisältö on valmis; tarkista vain nämä kaksi ajan myötä muuttuvaa asiaa ennen julkaisua:
