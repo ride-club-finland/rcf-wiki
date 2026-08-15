@@ -1676,31 +1676,37 @@
 </ul>
 <h2 id="kalenterit-ja-tapahtumahallinta">Kalenterit ja tapahtumahallinta<a class="headerlink" href="#kalenterit-ja-tapahtumahallinta" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Sesh</strong>: Discord-eventtien ja tapahtumakalenterin resurssi, premium-tilaus käytössä.</li>
-<li><strong>RCF-eventkalenteri</strong>: Google Sheets -pohjainen tapahtumien aikataulunäkymä.</li>
+<li><strong>Sesh</strong>: Discord-eventtien ja tapahtumakalenterin resurssi, premium-tilaus käytössä. Kuka tahansa jäsen voi luoda Sesh-tapahtuman — ei vaadi admin-oikeuksia. Premium-tilaus on hinnoiteltu joko vuositilauksena (~50$/v) tai kertamaksullisena "lifetime"-lisenssinä (~120$); tilaus kytkeytyy Discord-kirjautumisen kautta yhteen valittuun palvelimeen, joten omistajuuden vaihto (esim. maksavan jäsenen vaihtuessa) vaatii koordinoinnin: uusi omistaja ostaa oman lisenssinsä ja aktivoi sen vasta kun vanha tilaus on deaktivoitu tai vanhentunut — ei automaattista siirtoa.</li>
+<li><strong>RCF-eventkalenteri</strong>: Google Sheets -pohjainen tapahtumien aikataulunäkymä, sisältää myös "Osallistujat"-välilehden eventtien osallistujamäärien seurantaan. Zwiftiltä voi kuukausittain pyytää raportin, joka näyttää kaikkien RCF:n eventtien osallistujamäärät ja muuta dataa kootusti.</li>
 </ul>
 <h2 id="lomakkeet-ja-taulukot">Lomakkeet ja taulukot<a class="headerlink" href="#lomakkeet-ja-taulukot" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Kruunajaisten veikkaus- ja osallistujataulukko</strong>: uusiokäyttökelpoinen pohja tuleville Kruunajaisille.</li>
-<li><strong>Toiminnan kehittämisen palautekyselyt</strong>: aloittelijoiden huomiointi, naisten mukaan saaminen ym.</li>
+<li><strong>Toiminnan kehittämisen palautekyselyt</strong>: aloittelijoiden huomiointi, naisten mukaan saaminen ym. — toistuva anonyymi Google Forms -kysely, ajoitettu keväällä ennen ulkokauden alkua (ks. <a href="../discord_operating_model/#onboarding">Discordin toimintamalli</a>).</li>
 <li><strong>Zwift-eventtien tilaus-Excel</strong> (<code>Zwift Events.xlsx</code>): Zwiftin oma Event Request Form, lähetetään liitteenä sähköpostitse events@zwift.com:iin uutta eventtisarjaa tilattaessa. Koko tilausprosessi askel askeleelta: <a href="../../ORGANIZER_CHECKLISTS/how_to_order_zwift_event/">Zwift-eventin tilaaminen Zwiftiltä</a>.</li>
+<li><strong>Zwift-ajoasun tilausautomaatio</strong>: Google Form + Google Sheet + Apps Script -yhdistelmä (rakennettu tekoälyavusteisesti). Lomake kerää jäsenen Zwift ID:n, skripti tarkistaa tunnisteen muodon ja lähettää joka yö automaattisesti kaikki uudet ID-numerot sähköpostitse Zwiftille kuittauksineen. Ajoasu on tietoisesti rajattu vain Club-jäsenille — sitä ei jaeta ulkopuolisille tilaajan kautta, koska Excel-pohjainen eventtitilaus ei tue rajausta Club-jäseniin. Ajoasu tuli käyttöön Zwift-version 1.98 mukana (2025-09-25).</li>
 </ul>
 <h2 id="zwift-ja-zwiftpower">Zwift ja ZwiftPower<a class="headerlink" href="#zwift-ja-zwiftpower" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>ZwiftPower-tiimikuvaus</strong>: viestintä- ja onboarding-resurssi, auttaa löytämään RCF:n kanavat.</li>
-<li><strong>Zwift-ajoasun tilauslomake ja automaatio</strong>: Google Form + Sheet + skripti, käsittelee Zwift ID -tunnisteita. Tämä on tili-/tunnisterajapinta, joten sen omistajuus ja käyttöoikeudet pitää olla nimetty ylläpidon toimesta.</li>
+<li><strong>Zwift-ajoasun tilauslomake ja automaatio</strong>: Google Form + Sheet + skripti, käsittelee Zwift ID -tunnisteita. Tämä on tili-/tunnisterajapinta, joten sen omistajuus ja käyttöoikeudet pitää olla nimetty ylläpidon toimesta. Ks. tarkempi kuvaus yllä Lomakkeet ja taulukot -kohdassa.</li>
 <li><strong>ZwiftPowerin League-työkalu</strong>: RCF Cupin pisteytys lasketaan tällä, ei käsin taulukolla. Oikeudet haetaan ZwiftPowerin omalla lomakkeella, eivät RCF:n Discord-roolien kautta — tällä hetkellä yhden henkilön tilin varassa. Käyttöohje ja riski tarkemmin: <a href="../../TAPAHTUMAT/competition_process_rcf_cup/#zwiftpowerin-league-tyokalu-pisteytyksen-kaytannon-hallinta">RCF Cup ja kilpailutoiminnan prosessi</a>.</li>
+<li><strong>Eventtien muokkaus</strong>: <code>zwift.com</code>-sivun "Manage my events" -näkymä on käytännössä toimivampi eventtien muokkaukseen kuin Companion-appi (ei tarvitse näpräillä pienellä ruudulla). Tunnettu rajoitus: Double Draft -asetus ei pysy päällä tallennettaessa (poistui Zwiftistä jo vuosia sitten, mutta Companion-appin käyttöliittymä ei ole päivittynyt vastaamaan tätä) — muut asetukset (esim. Disable Drafting) tallentuvat normaalisti. Eventtien muokkaus on ajoittain ollut kokonaan poikki sekä Companionista että zwift.comista Zwiftin päässä — tällöin ei auta muu kuin odottaa korjausta.</li>
 </ul>
 <h2 id="seuravaatteet">Seuravaatteet<a class="headerlink" href="#seuravaatteet" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Moomoo-seuravaateprosessi</strong>: toimittajayhteys, designit, samplet, ydintuotevalikoima, hintaneuvottelu, oma seuravaatekanava. Oma prosessinsa, joka kannattaa pitää yhtenäisenä.</li>
+<li><strong>Moomoo-seuravaateprosessi</strong>: toimittajayhteys, designit, samplet, ydintuotevalikoima, hintaneuvottelu, oma seuravaatekanava. Oma prosessinsa, joka kannattaa pitää yhtenäisenä. Toteutunut aikajana: yhteydenotto → ei vastausta viikkoon (viesti oli mennyt roskapostiin, kannattaa varautua tähän ja kysyä perään) → yhteyshenkilö ja hintalista → mallikappaleiden tilaus (n. 50€/setti, sisältää postituksen Suomeen ja 14 vrk palautusajan) → testaus alueellisesti hajautetuilla testaajilla (mitat ja kokemukset kirjattuna) → hintaneuvottelu, jossa alennusporras alkaa n. 50 kpl/tuote. Ydintuotteiksi valittiin ensin rajattu setti (ajopaita ja bibsit kahdessa laatutasossa, takki, liivi, sukat, irtohihat/-lahkeet, lippis) — designien lisääminen on aina lisätyö toimittajan suuntaan, joten laajennetaan valikoimaa vasta myöhemmin. Personointi (nimi rinnassa logon yläpuolella tai kauluksessa) on tarjolla lisäpalveluna.</li>
+<li><strong>Tunnetut vaihtoehtoiset toimittajat</strong> (selvitetty mutta ei valittu, hyvä lähtökohta jos Moomoo-yhteistyö joskus vaihtuu): owayo (Saksa, ei minimitilausta), Giordana Custom (Italia), CUORE (Saksa/Sveitsi), Q36.5 (Italia, minimi ~10 kpl/tuote), Capo Cycling (Italia), Santini (Italia), Decca (Belgia, minimi 5 kpl). Ei kilpailutettu loppuun asti — päätös oli pitää kilpailutus kevyenä eikä tehdä siitä isoa erillisprojektia.</li>
 <li><strong>Moomoo-kauppasivu</strong>: <code>moomoo.cc/ride-club-finland/</code> — toistuvasti käytetty (viimeksi maaliskuu 2026), näyttää olevan nykyinen tilauskanava erillisen kyselylomakkeen rinnalla.</li>
 </ul>
 <h2 id="viestinta-ja-media">Viestintä ja media<a class="headerlink" href="#viestinta-ja-media" title="Permanent link">&para;</a></h2>
 <p>Introvideo, Instagram/Facebook/YouTube, kisastreamit, koosteet ja someklipit. Näille kannattaa olla nimetty vastuu (ks. <a href="../roles_and_responsibilities/">roolit ja vastuut</a>), koska ne ovat julkisen näkyvyyden kannalta seuran kasvot.</p>
 <ul>
 <li>Instagram- ja Facebook-läsnäolo on mainittu toistuvasti, mutta linkkirekisterissä ei ole yhtä pysyvää profiililinkkiä — vain yksittäisiä postaus-/story-linkkejä, jotka vanhenevat. Sivujen omistaja tarkistaa ja lisää kanoniset profiililinkit tähän myöhemmin.</li>
+<li><strong>Instagram konkreettisesti</strong>: marraskuussa 2025 tili ylitti ensimmäistä kertaa 10 000 näyttökertaa/kk (75 % seuraajilta, 25 % muualta) — RCF vs SZR -tapahtumapostaukset ja uusille jäsenille suunnatut infograafit olivat suosituimpia. Orgaaniset postaukset saavat tyypillisesti 500-700 näyttöä; muutaman euron mainosbudjetti (esim. 3€/pv, 3 päivää) nostaa saman postauksen näytöt nelinumeroisiksi jo vuorokaudessa. Tilien (Instagram + Facebook) yhdistäminen ja adminien lisääminen hoidetaan <strong>Meta Business Suitesta</strong>, kutsu tehdään seuran Facebook-tilin kautta.</li>
 <li><strong>Aktiiviset kisastriimaajat</strong> (<code>kisa-streamit-ja-tallenteet</code>-kanavan viittausmäärien perusteella, ei täydellinen lista): F1RSTlive on selvästi aktiivisin ja toistuvin (Twitch + YouTube, viittauksia yli 40, aikaväli syksy 2024 – kevät 2026). Muita toistuvasti mainittuja: kovaajoa, wattiantti, samituomi, jiiaanii, ToniKauhanen. Nämä ovat yksittäisten jäsenten omia julkisia striimaustilejä, ei RCF:n omistamia kanavia — tarkista ajantasaisuus ennen kuin niitä käytetään viestinnässä kanonisina.</li>
+<li><strong>Striimivälineistön resursointi</strong>: pitkään yksi vapaaehtoinen striimaaja on kustantanut kaiken oman laitteistonsa itse. Seura on tehnyt tähän ensimmäisen konkreettisen resurssipäätöksen (joulukuu 2025): korvasi noin 350€ edestä laitehankintoja seuran kassasta — hyvä ennakkotapaus sille, että vapaaehtoisen mediaroolin taakse kannattaa saada myös resursseja, ei vain kiitosta.</li>
+<li><strong>MyWhoosh/SRC-tulosautomaatio</strong>: koodattu työkalu, joka poimii MyWhooshin Sunday Race Club -kisojen tulokset ja julkaisee ne kanavalle automaattisesti tulosten julkistuessa. Jatkokehitysideana automaation laajentaminen suoraan Instagram-julkaisuihin.</li>
 </ul>
 <h2 id="pysyvat-linkit-ja-tunnisteet">Pysyvät linkit ja tunnisteet<a class="headerlink" href="#pysyvat-linkit-ja-tunnisteet" title="Permanent link">&para;</a></h2>
 <p>Linkkirekisterin 699 viitteestä suurin osa (noin 85 %) on yksittäisiä kisatallenteita tai kertaluonteisia event-linkkejä, jotka vanhenevat eivätkä kuulu tähän. Näiden joukosta erottuu kuitenkin pieni joukko <strong>toistuvasti käytettyjä, pysyviä</strong> linkkejä — nämä kannattaa pitää ajan tasalla tässä dokumentissa sen sijaan, että niitä etsitään uudestaan joka kerta Discordista:</p>
@@ -1726,7 +1732,7 @@
 <tr>
 <td>RCF Kuutar (naisten sarja) -tapahtumatagi</td>
 <td><code>zwift.com/uk/events/tag/rcfkuutar</code></td>
-<td>Vastaa pinned-inventaariossa mainittua naisten kisasarjaa.</td>
+<td>Vastaa <a href="#">pinned-inventaariossa</a> mainittua naisten kisasarjaa.</td>
 </tr>
 <tr>
 <td>Category Spotlight -tapahtumatagi</td>
