@@ -32,6 +32,7 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 
 - [Jäsenen FAQ ja onboarding-polku](JASENPOLKU/member_faq_and_onboarding.md) — `public_candidate`
 - [E-pyöräilyn työkalulinkit](JASENPOLKU/e_pyorailyn_tyokalulinkit.md)
+- [Tietosuojaseloste: Discord-yhteisö, viestintä ja automaatiot](JASENPOLKU/tietosuojaseloste.md) — `public_candidate`
 
 ## ORGANIZER_CHECKLISTS
 
