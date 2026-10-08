@@ -15,9 +15,8 @@ Päivitetty 8.10.2026.
 
 ## Rekisterinpitäjä ja yhteystiedot
 
-- **Rekisterinpitäjä:** [seuran virallinen nimi ja Y-tunnus]
-- **Yhteyshenkilö tietosuoja-asioissa:** [nimi tai rooli, sähköpostiosoite]
-- Discordissa voit ottaa yhteyttä myös ylläpitoon yksityisviestillä.
+- **Rekisterinpitäjä:** Ride Club Finland
+- **Yhteydenotot tietosuoja-asioissa:** seuran ylläpito Discordissa (yksityisviesti ylläpitäjälle).
 
 ## Lyhyesti
 
@@ -86,7 +85,7 @@ Säilytysajat, joissa lukee "toistaiseksi", tarkistetaan vuosittain.
 - **Käsittelyn rajoittaminen:** voit pyytää käsittelyn rajoittamista selvityksen ajaksi.
 - **Valitus:** voit tehdä valituksen tietosuojavaltuutetulle ([tietosuoja.fi](https://tietosuoja.fi)).
 
-Pyynnöt: kohdan *Rekisterinpitäjä ja yhteystiedot* yhteyshenkilölle tai ylläpidolle Discordissa.
+Pyynnöt: seuran ylläpidolle Discordissa.
 
 ## Tietoturva
 
