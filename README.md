@@ -5,7 +5,7 @@ YAML-frontmatterilla `docs/`-kansiossa — ihmiset lukevat sen rakennettuna
 sivustona, kielimallit voivat lukea saman lähteen suoraan tästä repositoriosta.
 
 Sisällön alkuperä ja perustelut sille, mikä päätyi wikiin: [`docs/meta/wiki_decision.md`](docs/meta/wiki_decision.md).
-Lähde-etsintä ja Discord-louhinta tehtiin erillisessä `RCF_DISCORD_EXPORT`-projektissa.
+Lähde-etsintä ja Discord-louhinta tehtiin erillisessä `RCF_DISCORD_EXPORT`-projektissa, joka poistettiin 8.10.2026. Wiki on nyt itse totuuden lähde.
 
 ## Kehitys
 

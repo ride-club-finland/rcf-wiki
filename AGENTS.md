@@ -25,10 +25,10 @@ heavy to keep buried in Discord scrollback.
 - `requirements.txt` pins `mkdocs` + `mkdocs-material`. `.venv/` is the local
   virtualenv (gitignored, not portable — recreate it, don't copy it).
 - `site/` is generated build output (gitignored). Never hand-edit it.
-- Upstream source: the original Discord-mining pipeline that produced this
-  content lives in the sibling `RCF_DISCORD_EXPORT` project
-  (`content/wiki/` + `content/wiki_decision.md`). This repo is the
-  destination, not the pipeline — don't recreate mining/synthesis logic here.
+- Origin: the content was first mined from a one-off Discord export in the
+  sibling `RCF_DISCORD_EXPORT` project, which was deleted on 2026-10-08.
+  This repo is now the only source of truth; edit pages here. Future
+  monthly pages may come from `rcf_aineistovarasto` as pull requests.
 
 ## Build, Test, and Development Commands
 
