@@ -32,7 +32,7 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 
 - [Jäsenen FAQ ja onboarding-polku](JASENPOLKU/member_faq_and_onboarding.md) — `public_candidate`
 - [Discord-ääni, laitteet ja striimaus](JASENPOLKU/discord_aani_ja_striimausopas.md) — `public_candidate`
-- [AI-videostudio: näin saat videon kisastasi](JASENPOLKU/ai_videostudio_ohje.md) — `public_candidate`
+- [Videostudio: näin saat videon kisastasi](JASENPOLKU/ai_videostudio_ohje.md) — `public_candidate`
 - [Kisakatsomo ja Fan View](JASENPOLKU/zwift_kisakatsomo_ja_fan_view.md) — `public_candidate`
 - [E-pyöräilyn työkalulinkit](JASENPOLKU/e_pyorailyn_tyokalulinkit.md)
 - [Tietosuojaseloste: Discord-yhteisö, viestintä ja automaatiot](JASENPOLKU/tietosuojaseloste.md) — `public_candidate`

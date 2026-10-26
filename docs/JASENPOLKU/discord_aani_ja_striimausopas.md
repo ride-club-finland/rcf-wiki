@@ -101,7 +101,7 @@ perua valintasi milloin tahansa samasta paikasta: jos poistat Kyllä-valinnan, t
 - Kun aloitat Go Liven puhekanavalla, **🎥 RCF Kamera** liittyy kanavalle mykistettynä ja näkyy jakosi katsojissa. Näin tiedät aina, milloin tallennetaan.
 - Vain Kyllä-valinnan tehneiden jaot tallennetaan. Muiden jakoja ei tallenneta, eikä kamera tallenna puhekanavan keskustelua.
 - Nuorten kanavalla kamera ei ole koskaan.
-- Tallenne viedään seuran videostudion Drive-kansioosi, josta voit tilata videobotilta koosteen tai highlightin (`#ai-videostudio-pilotti`). Ohje: [AI-videostudio](ai_videostudio_ohje.md).
+- Tallenne viedään seuran videostudion Drive-kansioosi, josta voit tilata videobotilta koosteen tai highlightin (`#videostudio`). Ohje: [Videostudio](ai_videostudio_ohje.md).
 
 ### Vinkit hyvään tallenteeseen
 - **Jaa vain peli-ikkuna** (Sovellukset-välilehti), ei koko näyttöä: silloin ilmoitukset ja yksityisviestit eivät päädy kuvaan.

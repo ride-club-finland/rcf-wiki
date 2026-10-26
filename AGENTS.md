@@ -85,6 +85,13 @@ promoting it). Note the whole repo is a **public** GitHub repo already —
 not an access-control boundary. Never rely on it to gate anything actually
 sensitive.
 
+## Generated member guides
+
+`docs/JASENPOLKU/ai_videostudio_ohje.md` is the long guide to the video studio. Its short texts (guide cards,
+booklet, step video) live with the product in `../rcf_videobotti/docs/jasenohje.json`, and the NotebookLM text is
+built from this page. After editing the page, bump `last_verified` and run
+`uv run python kokeet/K17_perehdytys/paivita.py` in `../rcf_mediatehdas` (`--tarkista` only checks).
+
 ## Coding Style & Naming Conventions
 
 Markdown files: `snake_case.md`, UTF-8, Finnish prose (matches existing
