@@ -52,6 +52,9 @@ nav:
       - TAPAHTUMAT/event_playbook_rcf_vs_sz.md
   - Jäsenpolku:
       - JASENPOLKU/member_faq_and_onboarding.md
+      - JASENPOLKU/discord_aani_ja_striimausopas.md
+      - JASENPOLKU/ai_videostudio_ohje.md
+      - JASENPOLKU/zwift_kisakatsomo_ja_fan_view.md
       - JASENPOLKU/e_pyorailyn_tyokalulinkit.md
       - JASENPOLKU/tietosuojaseloste.md
   - Järjestäjän checklistit:
@@ -62,6 +65,11 @@ nav:
       - ORGANIZER_CHECKLISTS/how_to_run_wtrl_ttt.md
       - ORGANIZER_CHECKLISTS/how_to_order_zwift_event.md
       - ORGANIZER_CHECKLISTS/templates/rcf_cup_announcement_template.md
+  - Historia ja saavutukset:
+      - HISTORIA/index.md
+      - HISTORIA/hall_of_fame.md
+      - Kuukausikoosteet:
+          - HISTORIA/kuukausikoosteet/2026-09.md
   - Tausta:
       - meta/wiki_decision.md
 

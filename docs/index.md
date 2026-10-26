@@ -31,8 +31,17 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 ## JÄSENPOLKU
 
 - [Jäsenen FAQ ja onboarding-polku](JASENPOLKU/member_faq_and_onboarding.md) — `public_candidate`
+- [Discord-ääni, laitteet ja striimaus](JASENPOLKU/discord_aani_ja_striimausopas.md) — `public_candidate`
+- [AI-videostudio: näin saat videon kisastasi](JASENPOLKU/ai_videostudio_ohje.md) — `public_candidate`
+- [Kisakatsomo ja Fan View](JASENPOLKU/zwift_kisakatsomo_ja_fan_view.md) — `public_candidate`
 - [E-pyöräilyn työkalulinkit](JASENPOLKU/e_pyorailyn_tyokalulinkit.md)
 - [Tietosuojaseloste: Discord-yhteisö, viestintä ja automaatiot](JASENPOLKU/tietosuojaseloste.md) — `public_candidate`
+
+## HISTORIA JA SAAVUTUKSET
+
+- [Seuran historia ja kronikka](HISTORIA/index.md)
+- [Hall of Fame ja kausisaavutukset](HISTORIA/hall_of_fame.md)
+- [Kuukausikoosteet (arkisto)](HISTORIA/kuukausikoosteet/2026-09.md)
 
 ## ORGANIZER_CHECKLISTS
 
@@ -48,4 +57,4 @@ Kaikki dokumentit ovat `internal_only` (seuran sisäistä ylläpito- ja järjest
 
 Kesken oleva kausisuunnittelu (esim. TalviCup 2026-2027), avointen asioiden TODO-lista ja tämän louhintaprojektin oma prosessikirjanpito. Katso perustelut: [wiki-päätös](meta/wiki_decision.md).
 
-Linkkirekisteri (699 linkkiä) käytiin yksitellen läpi 2026-08-13: noin 85 % on yksittäisiä kisatallenteita tai kertaluonteisia event-linkkejä, jotka jäävät tarkoituksella Discordiin. Pysyvästi käytetyt linkit (ZwiftPower-tiimi, RCF Cup -tapahtumatagi, RCF Shop, ym.) on nostettu [resurssi-inventaarioon](YLLAPITO/resource_inventory.md), ja valmiiksi koostettu työkalulinkkikokoelma omaksi sivukseen (ks. yllä).
+Linkkirekisteri (699 linkkiä) käytiin yksitellen läpi 2026-08-13: noin 85 % on yksittäisiä kisatallenteita tai kertaluonteisia event-linkkejä, jotka jäävät tarkoituksella Discordiin. Pysyvästi käytetyt linkit (ZwiftPower-tiimi, RCF Cup -tapahtumatagi, Moomoo-seuravaatteet, ym.) on nostettu [resurssi-inventaarioon](YLLAPITO/resource_inventory.md), ja valmiiksi koostettu työkalulinkkikokoelma omaksi sivukseen (ks. yllä).

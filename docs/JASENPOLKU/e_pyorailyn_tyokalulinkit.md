@@ -4,7 +4,7 @@ wiki_category: JASENPOLKU
 related_gold_docs: [member_faq_and_onboarding, resource_inventory]
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-13
+last_verified: 2026-10-21
 source: infopankki-kanavan linkkitietopankki-viesti (timbuktu, 2024-10-03)
 ---
 
@@ -32,6 +32,13 @@ Tämä on suoraan `infopankki`-kanavalta löytynyt, jo valmiiksi koostettu linkk
 - [zwiftpower.com](https://zwiftpower.com/) — tapahtumakalenteri, -historia ja voimantuottotieto
 - [zwiftgopher.com/TTT](https://zwiftgopher.com/TTT/) — joukkueaika-ajon vetovuorojen laskin
 
+## MyWhoosh & Sunday Race Club (SRC)
+
+- [mywhoosh.com](https://www.mywhoosh.com/) — MyWhooshin virallinen sovellus, ajomaailmat ja laitevaatimukset
+- [events.mywhoosh.com](https://events.mywhoosh.com/) — MyWhooshin virallinen tapahtumakalenteri ja rekisteröityminen
+- [sundayraceclub.com](https://sundayraceclub.com/) — Sunday Race Club (SRC) -tiimikisasarjan viralliset säännöt, sarjataulukot ja kategoriat
+- Kanava `#mywhoosh` RCF:n Discordissa — seuran omat tiimit, ilmoittautumiset ja kisataktiikat
+
 ## indieVelo
 
 - [dualrecording.com](https://dualrecording.com/) — kaksoistallennustiedon analysointi
@@ -50,5 +57,4 @@ Alkuperäisessä viestissä oli myös linkki RCF:n omaan kisarosteritaulukkoon. 
 
 ## Avoinna
 
-- Kukaan ei ole vielä käynyt läpi, ovatko kaikki linkit edelleen toimivia (koostettu alun perin 2024-10-03).
-- Alkuperäinen viesti ei kata MyWhoosh-työkaluja omana ryhmänään — otsikko oli varattu, mutta sisältö jäi tyhjäksi lähteessä.
+- Työkalulinkit on tarkistettu ja täydennetty MyWhoosh & SRC -resursseilla 2026-10-21.

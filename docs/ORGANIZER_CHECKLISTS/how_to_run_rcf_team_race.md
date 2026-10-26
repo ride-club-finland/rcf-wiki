@@ -22,7 +22,7 @@ Käytännön versio [RCF-joukkuekisa-playbookista](../TAPAHTUMAT/event_playbook_
 
 ## Julkaisu
 
-1. Luo RCF Club -tapahtuma (admin luo Companionissa) ja lisää se ZwiftPoweriin RCF:n private-event-työkalulla, jotta tulokset rekisteröityvät. Jaa event-linkki kanavalle.
+1. Luo RCF Club -tapahtuma (admin luo Companionissa) ja lisää se ZwiftPoweriin [RCF:n private-event-työkalulla](https://zwiftpower.com/zz.php?do=private_event&sid=2ec0fc286540b6d53fb2545c08b20ed2) (syötä eventin ID-numero), jotta tulokset rekisteröityvät ZwiftPoweriin. Jaa event-linkki kanavalle.
 2. Avaa Discord-thread ja kerro siinä: päivä, kellonaika, rata, ilmoittautumistapa, tarvittavat tiedot, joukkuejaon periaate, pisteiden laskentatapa. Pyydä osallistujia ilmoittamaan oma ZRS-piste ja vauhtikategoria threadissä — sama paikka sopii myös vastustajan nokitteluun ilman että se sotkee pääkanavaa.
 3. Pyydä osallistujilta vain joukkuejaon kannalta välttämättömät tiedot — ei henkilöpohjaisia rosteririvejä pysyvään dokumenttiin.
 

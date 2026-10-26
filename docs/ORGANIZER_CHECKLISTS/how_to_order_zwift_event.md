@@ -31,7 +31,9 @@ Sähköposti osoitteeseen events@zwift.com, jossa kerrotaan vähintään:
 - **Target Audience** — kenelle ajo on suunnattu (esim. W/kg-haarukka, kesto, taso)
 - **Key Feature** — erityisasetukset, esim. Double Draft päällä/pois
 
-Liitteeksi tarvitaan Zwiftin oma **Event Request Form** -Excel-lomake (esiintyi tiedostonimellä `Zwift Events.xlsx`). Tämä on sama lomake, joka on mainittu [resurssi-inventaariossa](../YLLAPITO/resource_inventory.md) kilpailutoiminnan tilaus-Excelinä — ilman täytettyä lomaketta tilausta ei käsitellä.
+Vuoden 2025 tilauksessa liitteenä oli Zwiftin oma **Event Request Form** -Excel-lomake (esiintyi tiedostonimellä `Zwift Events.xlsx`; sama lomake kuin [resurssi-inventaarion](../YLLAPITO/resource_inventory.md) kilpailutoiminnan tilaus-Excel). Järjestäjän kokemuksen mukaan lomaketta ei kuitenkaan tarvita: pelkkä sähköposti yllä olevilla tiedoilla on riittänyt (päivitetty 23.10.2026).
+
+Jos sarja ei ole viikoittain toistuva (esim. pyhäpäivälenkit), listaa sähköpostissa jokainen päivä, alkamisaika UTC:nä ja reitti erikseen. Huomioi kesäajan vaihto (Suomi UTC+2 → UTC+3 maaliskuun viimeisenä sunnuntaina).
 
 ## 2. Odota ja vastaa ajankohtakeskusteluun
 

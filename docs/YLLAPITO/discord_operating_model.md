@@ -4,7 +4,7 @@ wiki_category: YLLAPITO
 related_gold_docs: [resource_inventory, roles_and_responsibilities]
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-15
+last_verified: 2026-10-21
 ---
 
 # Discordin toimintamalli
@@ -13,17 +13,14 @@ Discord on RCF:n käytännön toimintaympäristö: jäsenet otetaan vastaan, tap
 
 ## Onboarding
 
-Uuden jäsenen polku nojaa kolmeen osaan:
+Uuden jäsenen polku nojaa neljään toisiaan tukevaan osaan:
 
-- automatisoitu tervetuloviesti (Carl-botti)
-- tervetuloa-kanavan kysely (miten jäsen löysi seuran, millaista toimintaa hän toivoo)
-- esittelyt-kanavan aktiivinen follow-up
+1. **Henkilökohtainen DM-tervehdys (Tomas-kummi & AI Domestique):** Uusi tulokas saa heti liittymishetkellä (`on_member_join`) henkilökohtaisen Discord Embed -tervehdyksen, jossa seuran yhteisökummi Tomas toivottaa tulokkaan mukaan. Viestissä on 24/7 AI-chätti seuran säännöistä ja toiminnasta sekä suora yhteys ihmis-Tomakseen.
+2. **Esittäytyminen #esittelyt-kanavalla (`1193184884043284544`):** Tulokas ohjataan esittäytymään kanavalle `#esittelyt` ja kertomaan omasta ajotaustastaan, jotta koko yhteisö voi ottaa hänet lämpimästi vastaan. Kanava `#tervetuloa` (`1275401906360942704`) toimii varaväylänä, jonne botti laittaa viestin silloin, jos tulokkaalla on yksityisviestit (DM) estettynä.
+3. **Kanavien personointi (Channels & Roles):** Tulokas valitsee kiinnostuksensa (lajit, paikkakunta, kisat) suoraan kanavalistan yläreunan natiivista valikosta.
+4. **Yhteisölenkeille liittyminen (#zwift-ryhmälenkit):** Seurassa pyritään ajamaan samoilla lenkeillä. Kanavalla `#zwift-ryhmälenkit` toimii reaaliaikainen tilannekortti, joka kokoaa jäsenten ilmoittautumiset ja suosittelee päivän parasta kimppalähtöä.
 
 Katso jäsenelle näkyvä versio: [Jäsenen FAQ ja onboarding-polku](../JASENPOLKU/member_faq_and_onboarding.md).
-
-**Konkreettinen tervetuloviestin rakenne** (Carl-bot, automatisoitu heti liittymisen yhteydessä): 1) ohjaa lukemaan infopankki-kanavan ohjeet, 2) ohjaa seuraamaan tapahtumakalenterikanavaa, 3) ohjaa liittymään seuraavaan yhteislenkkiin suoraan tapahtumalistauksesta, 4) kannustaa (vapaaehtoisesti) esittelemään itsensä esittelyt-kanavalla. Viestissä on lisäksi tilaa yhdelle ajankohtaiselle nostolle (esim. tulevan kilpailukauden alkamisesta). Tämä neliosainen rakenne on toiminut sellaisenaan vuodesta 2024 asti eikä sitä ole tarvinnut muuttaa.
-
-**Kertaluonteinen kysymys, joka toistuu**: tervetuloviestin rekrytointikampanjoista (esim. "kutsu tapaamasi suomalainen Zwift-ajaja mukaan") on kokeiltu, mutta yhteisö päätyi siihen, että kynnys kontaktoida tuntemattomia on korkea molemmin puolin — toimivammaksi malliksi osoittautui kevyempi tiedotus (infoviesti tapahtumakalenterikanavalla + vapaamuotoinen keskustelu yleiskanavalla) ilman erillistä kampanjarakennetta.
 
 **Toistuva kevätrytmi**: ennen kuin aktiivisuus laskee ulkokauden alkaessa (maalis-huhtikuu), on vakiintunut tapa julkaista anonyymi kehityskysely e-pyöräilytoiminnasta yleiskanavalla — kerää toiveita, syitä olla osallistumatta ja halukkuutta ottaa isompaa roolia. Kyselyyn kannattaa jättää avoin vapaatekstikenttä kiinteiden kysymysten lisäksi, ja se kannattaa ajoittaa juuri ennen kauden vaihtumista, ei sen jälkeen.
 
@@ -46,7 +43,9 @@ Discordiin ja siihen liittyviin alustoihin liittyy useita oikeuksia (Discord-adm
 
 ## Botit ja automaatiot
 
-- **Carl-botti** hoitaa tervetuloa-automaation.
+- **rcf_onboarding_botti (Tomas-kummi & AI Domestique)** hoitaa tulokkaiden vastaanoton DM-tervehdyksellä, kanavafallbackin `#tervetuloa`-kanavalle ja 24/7 perehdytyksen tekoälyllä seuran virallisen tietopankin pohjalta.
+- **some_integraatio_discord / Tapahtumasynkro** synkronoi viikko-ohjelman automaattisesti materiaalipankin viikkoviennistä Discordin natiiveiksi tapahtumiksi peli- ja puhekanavalinkkeineen.
+- **zwift_yhteisoajot** kokoaa jäsenten Zwift-ilmoittautumiset ja julkaisee kanavalle `#zwift-ryhmälenkit` päivittäin yhden yhteisen kimppasuosituksen (In-Place Dynamic Card, reaaliaikaiset peukkureaktiot), jotta seura ajaa yhdessä porukassa.
 - **Sesh** on Discord-eventtien ja tapahtumakalenterin resurssi (premium-tilaus käytössä). Premiumissa on ominaisuus, jolla osallistujille voi jakaa tapahtumakohtaisen, tapahtuman jälkeen poistuvan roolin — sen avulla voi pingata vain kyseiseen tapahtumaan ilmoittautuneet (esim. `@WTRL` vain WTRL TTT -ilmoittautuneille) ilman laajempaa massapingausta.
 - Google Forms / Google Sheets -pohjaisia kyselyjä ja lomakkeita käytetään mm. Zwift-ajoasun tilaamiseen — ks. [resurssi-inventaario](resource_inventory.md#lomakkeet-ja-taulukot) konkreettisesta toteutuksesta.
 

@@ -4,7 +4,7 @@ wiki_category: YLLAPITO
 related_gold_docs: [discord_operating_model, roles_and_responsibilities]
 publishability: internal_only
 status: koostettu_wikiin
-last_verified: 2026-08-15
+last_verified: 2026-10-21
 ---
 
 # Resurssi-inventaario
@@ -13,8 +13,9 @@ Mitä työkaluja, lomakkeita, taulukoita, kanavia ja ulkoisia alustoja seuran to
 
 ## Discord ja onboarding
 
-- **Carl-botti**: tervetuloa-automaatio.
-- **Tervetuloa-kanavan kysely**: kerää tietoa siitä, miten jäsen löysi seuran ja millaista toimintaa hän toivoo.
+- **rcf_onboarding_botti (Tomas-kummi & AI Domestique)**: Henkilökohtainen Discord Embed -tervetuloviesti tulokkaan yksityisviesteihin (DM), varatiedote kanavalle `#tervetuloa` ja 24/7 interaktiivinen AI-perehdytys.
+- **Channels & Roles (Kanavat ja roolit)**: Discordin natiivi kanavien personointi (roolit avattava, jotta lajikohtaiset kanavat kuten Zwift, MyWhoosh ja Harjoittelu näkyvät tulokkaalle).
+
 
 ## Kalenterit ja tapahtumahallinta
 
@@ -61,14 +62,17 @@ Linkkirekisterin 699 viitteestä suurin osa (noin 85 %) on yksittäisiä kisatal
 | RCF Cup -tapahtumatagi | `zwift.com/uk/events/tag/rcfcup` | Pysyvä tagi, näyttää kaikki sarjan eventit — parempi kuin yksittäiset stage-linkit. |
 | RCF Kuutar (naisten sarja) -tapahtumatagi | `zwift.com/uk/events/tag/rcfkuutar` | Vastaa [pinned-inventaariossa](#) mainittua naisten kisasarjaa. |
 | Category Spotlight -tapahtumatagi | `zwift.com/uk/events/tag/rcfcategoryspotlight` | Viikoittainen matalan kynnyksen kisamalli. |
-| RCF Shop | `ride-club-finland.myspreadshop.fi` | Vakaa, viitattu toistuvasti 2025–2026. |
+| RCF Shop | Poistunut käytöstä | Spreadshop hajosi syksyllä 2026; ajovaatteet tilataan keskitetysti Moomoo-yhteistilauksilla (#seuravaatteet-moomoo). |
 | RCF:n virallinen nettisivu | `rideclub.fi` (mm. `/liity-seuraan`, `/e-pyöräily`) | Käytetään mm. liittymisohjeissa. |
-| RCF-materiaalit (logo, kansikuvat, Club ladder -pistelaskuri) | Google Drive -kansio, mainittu infopankissa | `needs_human_review` linkkirekisterissä — tarkista käyttöoikeudet ja ajantasaisuus ennen kuin linkkiä jaetaan laajemmin. |
+| RCF-materiaalit (logo, kansikuvat, Club ladder -pistelaskuri) | [Google Drive -kansio](https://drive.google.com/drive/folders/1TAh0gi5-71DyHOuN7OVI8cuFlRWSYKFM) | Logo, kansikuvat, introvideo ja Club ladder -pistelaskuri. Linkki löytyy myös Discordin infopankista. |
 | Ilmoittautumis-/kisarosteritaulukko | Google Sheets, käytetty 2023–2025 useasta kanavasta | Sisältää osallistujien nimiä — **vain ylläpito-/järjestäjäkäyttöön**, ei jäsenille jaettava linkki. |
-| Sesh-kojelauta | `sesh.fyi/dashboard/` | Yleinen Sesh-työkalun kirjautumisosoite. |
+| Sesh-tapahtumakalenteri | `sesh.fyi/dashboard/1134843322695958570/events?view=calendar` | Seuran suora tapahtumakalenterilinkki. |
+| SuomiSport-seuralinkki | `seurat.suomisport.fi/invite/3f4320bf-8675-4837-8406-3d6c5c5df290` | Suora liittymiskutsu seuran viralliseen yhdistykseen. |
+| ZwiftPower Private Event (tulosten haku) | `zwiftpower.com/zz.php?do=private_event&sid=2ec0fc286540b6d53fb2545c08b20ed2` | Järjestäjien työkalu: syötä Event ID saadaksesi Club Eventin tulokset ZwiftPoweriin. |
+| ZRL Kisarosterit (2025–2026) | `docs.google.com/spreadsheets/d/1BdurppRZvvWnlRyRDIOdSh_C_Cp-VoDD8twATDTTkGk/` | WTRL ZRL -joukkueiden ja osallistujien virallinen kausitaulukko. **Jaetaan jäsenille:** uusi ZRL-kuski lisää itsensä joukkueeseen, ja kapteenit käyttävät taulukkoa kokoonpanoihin (vahvistettu 23.10.2026). Eri asia kuin yllä oleva vanha ilmoittautumistaulukko. |
 | WTRL:n viralliset sivut | `wtrl.racing/zwift-racing-league/` (schedule/rules/registration), `wtrl.racing/login/` | Ulkoisen alustan omat sivut, ei RCF:n ylläpitämiä. |
 
-**Ei vielä ratkaistu:** RCF:n Zwift Club -linkille löytyi linkkirekisteristä **kolme eri club-ID:tä** eri ajankohdilta (heinäkuu 2024, syyskuu 2025, tammikuu 2026). Tämä voi tarkoittaa, että klubi on jossain vaiheessa luotu uudelleen, tai että kyse on eri klubeista. Kunnes joku ylläpidosta vahvistaa nykyisen, oikean linkin, sitä ei ole merkitty tähän eikä jäsen-FAQ:hun — väärän club-linkin jakaminen jäsenille olisi pahempi kuin linkin puuttuminen kokonaan.
+**Kanoninen Zwift Club -liittyminen:** Selkein ja varmin tapa liittyä seuran klubiin on ohjeistaa jäsenet avaamaan puhelimen **Zwift Companion** -sovellus, siirtymään **Clubs**-välilehdelle ja hakemaan nimellä **Ride Club Finland**. Tämä ohittaa vanhentuvat suorat web-linkit ja ID-muutokset.
 
 Kaksi eri Discord-kutsulinkkiä (`discord.gg/...`) löytyi myös eri ajankohdilta (helmikuu 2024 ja marraskuu 2025) — samasta syystä ei merkitty kanoniseksi ilman vahvistusta.
 
@@ -78,10 +82,10 @@ Erillinen, jo valmiiksi koostettu e-pyöräilyn työkalulinkkien kokoelma (Zwift
 
 Discordin pinned-viestit paljastivat admin-kanavan lisäksi käytännön arjen resursseja kanavittain:
 
-- **help-desk**: pinned-viesti on jäsenten Zwift-aloituspolku (tilit, ZwiftPower/WTRL-kytkennät) — pohjana [jäsen-FAQ:lle](../JASENPOLKU/member_faq_and_onboarding.md).
+- **help-desk** (arkistoitu, korvaajana `#kysy-apurilta`): pinned-viesti on jäsenten Zwift-aloituspolku (tilit, ZwiftPower/WTRL-kytkennät) — pohjana [jäsen-FAQ:lle](../JASENPOLKU/member_faq_and_onboarding.md).
 - **aloittelijat-ja-vähän-väsähtäneet**: matalan kynnyksen kisakonsepti, oma jäsenpolun kannalta strateginen malli.
 - **kisa-streamit-ja-tallenteet / kisojen-selostus**: YouTube-kansipohjat, introasset, ajatus selostuksesta MyWhoosh SRC -kisoihin.
-- **rcf-shop / seuravaatteet-moomoo**: seurakauppa ja Moomoo-erikoiserien kyselyprosessi.
+- **seuravaatteet-moomoo**: Moomoo-seuravaatteiden yhteistilaukset ja kyselyprosessi (vanha Spreadshop on poistunut käytöstä).
 - **naiset**: RCF:n ensimmäinen naisten kisasarja, kuukausirytmillä.
 - **ulkotapahtumat / saimaa-2027**: fyysisten ulkotapahtumien ilmoitusformaatti ja ajoryhmäsuunnittelu.
 - Kisakanavien (Zwift-kisat, RCF Cup, cycling-time-trials-winter, ZRL) pinned-viestit toimivat kisakalenterien ja kausitaulukoiden jakelupaikkana — nämä linkit vanhenevat helposti eivätkä siksi ole tässä dokumentissa, vaan elävät Discordissa kunnes joku ottaa linkkirekisterin omistajuuden (ks. alla).
