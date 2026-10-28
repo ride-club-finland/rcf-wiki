@@ -94,10 +94,15 @@ Jos annoit selostuksen, saat **kolme käsikirjoitusta**: *Koko kisa* (suositus),
 napista tai kirjoita muutos, esimerkiksi *"2, mutta lyhyempi"*. Jokaiseen kysymykseen voi vastata myös
 kirjoittamalla.
 
+Haluatko rivin juuri tietyksi? Kopioi käsikirjoituksen rivit, muokkaa ja lähetä ne samassa muodossa, esimerkiksi
+`alku: Taas mennään.`, `km 14,0: Kevyt sprintti kehiin.` ja `loppu: Kiitos ja näkemiin.` Studio vaihtaa ne
+sellaisinaan ilman tekoälyä ja kertoo, mitkä rivit muuttuivat. Rivin saa pois kirjoittamalla `km 14,0: pois`.
+Oma `alku:`-rivisi on myös videon avauslause. Ruutuun mahtuu noin 70 merkkiä riviä kohti (alku ja loppu 90).
+
 ## 5. Tarkista, katso ja hyväksy
 
-- Saat **klippilistan** ja kuvan jokaisesta hetkestä. Muuta kirjoittamalla, esimerkiksi *"kolmonen pois"* tai
-  *"lisää A ja C"*. Studio näyttää muutokset ennen kuin tekee ne (**Tee muutokset**), sitten **Renderöi**.
+- Saat **klippilistan** ja kuvan jokaisesta hetkestä. Muuta kirjoittamalla, esimerkiksi *"kolmonen pois"*,
+  *"klippi 3 10 s pidemmäksi"*, *"klippi 2 alkaa mäen juurelta"* tai *"lisää A ja C"*. Studio näyttää muutokset ennen kuin tekee ne (**Tee muutokset**), sitten **Renderöi**.
 - **Esikatselu** tulee lankaan, kun se on valmis. Anna palautetta tai paina **Hyväksy**.
 - **Täysi laatu** tulee Drive-kansiosi alikansioon `valmiit/`.
 - **Highlightit:** valitse 1–3 hetkeä (maali, kiri, KOM). Studio kysyy, miltä tuntui, ja ehdottaa otsikoita.
