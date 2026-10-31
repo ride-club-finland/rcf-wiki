@@ -1,0 +1,2339 @@
+
+<!doctype html>
+<html lang="fi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ride Club Finlandin sisäinen tietopankki — pysyvä tieto joka on liian raskas Discordissa säilytettäväksi.">
+      
+      
+        <meta name="author" content="Ride Club Finland">
+      
+      
+      
+        <link rel="prev" href="../member_faq_and_onboarding/">
+      
+      
+        <link rel="next" href="../ai_videostudio_ohje/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/branding/monogram-rcf.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Discord-äänichat, laitteet ja striimaus - RCF-wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Barlow";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#discord-aanichat-laitteet-ja-striimaus" class="md-skip">
+          Hyppää sisältöön
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Ylätunniste">
+    <a href="../.." title="RCF-wiki" class="md-header__button md-logo" aria-label="RCF-wiki" data-md-component="logo">
+      
+  <img src="../../assets/branding/monogram-rcf.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RCF-wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Discord-äänichat, laitteet ja striimaus
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Vaihda tummaan tilaan"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Vaihda tummaan tilaan" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Vaihda vaaleaan tilaan"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Vaihda vaaleaan tilaan" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Hae" placeholder="Hae" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Haku">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Tyhjää" aria-label="Tyhjää" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Aloitetaan hakua
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Välilehdet" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Etusivu
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../YLLAPITO/discord_operating_model/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Ylläpito
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../TAPAHTUMAT/event_organizing_patterns/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tapahtumat
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../member_faq_and_onboarding/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Jäsenpolku
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ORGANIZER_CHECKLISTS/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Järjestäjän checklistit
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../HISTORIA/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Historia ja saavutukset
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../meta/wiki_decision/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tausta
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigaatio" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RCF-wiki" class="md-nav__button md-logo" aria-label="RCF-wiki" data-md-component="logo">
+      
+  <img src="../../assets/branding/monogram-rcf.svg" alt="logo">
+
+    </a>
+    RCF-wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etusivu
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ylläpito
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ylläpito
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../YLLAPITO/discord_operating_model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discordin toimintamalli
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../YLLAPITO/resource_inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resurssi-inventaario
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../YLLAPITO/roles_and_responsibilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roolit ja vastuut
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tapahtumat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tapahtumat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TAPAHTUMAT/event_organizing_patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tapahtumien järjestämismallit
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TAPAHTUMAT/event_playbook_kruunajaiset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kruunajaiset — tapahtumaplaybook
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TAPAHTUMAT/competition_process_rcf_cup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF Cup ja kilpailutoiminnan prosessi
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TAPAHTUMAT/event_playbook_rcf_team_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF-joukkuekisa — tasajoukkueiden sisäinen playbook
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TAPAHTUMAT/event_playbook_rcf_vs_sz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF vs SZR — tapahtumaplaybook
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jäsenpolku
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Jäsenpolku
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../member_faq_and_onboarding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jäsenen FAQ ja onboarding-opas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--tarkistettu_ja_rikastettu"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discord-äänichat, laitteet ja striimaus
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discord-äänichat, laitteet ja striimaus
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisällysluettelo">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisällysluettelo
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-aanilaitteiden-valinta-trainerin-aarelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Äänilaitteiden valinta trainerin äärelle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Äänilaitteiden valinta trainerin äärelle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suositellut-kuulokkeet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suositellut kuulokkeet:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suositellut-mikrofonit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suositellut mikrofonit:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-discord-aaniasetukset-taustamelun-poisto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Discord-ääniasetukset (Taustamelun poisto)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-nain-jaat-ja-striimaat-ruutusi-discordissa-pc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Näin jaat ja striimaat ruutusi Discordissa (PC)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-kanavien-ja-palvelimen-mykistaminen-ilmoitusten-hallinta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Kanavien ja palvelimen mykistäminen (Ilmoitusten hallinta)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Kanavien ja palvelimen mykistäminen (Ilmoitusten hallinta)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yksittaisen-kanavan-mykistys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yksittäisen kanavan mykistys:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#koko-palvelimen-ilmoitusasetukset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koko palvelimen ilmoitusasetukset:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-rcf-kamera-ja-luparoolit-pelikuvasi-seuran-kisaklippeihin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. RCF Kamera ja luparoolit: pelikuvasi seuran kisaklippeihin
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. RCF Kamera ja luparoolit: pelikuvasi seuran kisaklippeihin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nain-annat-luvan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Näin annat luvan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mita-tapahtuu-kun-jaat-nayttosi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mitä tapahtuu, kun jaat näyttösi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vinkit-hyvaan-tallenteeseen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vinkit hyvään tallenteeseen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lupa-some-ja-sailytys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lupa, some ja säilytys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai_videostudio_ohje/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videostudio: näin saat videon kisastasi
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../zwift_kisakatsomo_ja_fan_view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kisakatsomo ja Fan View — Näin seuraat seuran kisoja Zwiftissä
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../e_pyorailyn_tyokalulinkit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-pyöräilyn työkalulinkit
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tietosuojaseloste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tietosuojaseloste: Discord-yhteisö, viestintä ja automaatiot
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--luonnos"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ORGANIZER_CHECKLISTS/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Järjestäjän checklistit
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Järjestäjän checklistit
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/how_to_run_kruunajaiset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kruunajaisten järjestäjäohje
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/how_to_run_rcf_cup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF Cupin järjestäjäohje
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/how_to_run_rcf_team_race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF-joukkuekisan järjestäjäohje
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/how_to_run_wtrl_ttt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WTRL TTT -järjestäjäohje
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/how_to_order_zwift_event/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to order zwift event
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ORGANIZER_CHECKLISTS/templates/rcf_cup_announcement_template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCF Cup — pääviestipohja
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../HISTORIA/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historia ja saavutukset
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Historia ja saavutukset
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HISTORIA/hall_of_fame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seuran Hall of Fame ja kausisaavutukset
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--koostettu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kuukausikoosteet
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kuukausikoosteet
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HISTORIA/kuukausikoosteet/2026-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seurakronikka: Syyskuu 2026
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--arkistoitu_wikiin"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tausta
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tausta
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meta/wiki_decision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Päätös: mikä menee wikiin, mikä jää elämään Discordiin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Sisällysluettelo">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Sisällysluettelo
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-aanilaitteiden-valinta-trainerin-aarelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Äänilaitteiden valinta trainerin äärelle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Äänilaitteiden valinta trainerin äärelle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#suositellut-kuulokkeet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suositellut kuulokkeet:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suositellut-mikrofonit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suositellut mikrofonit:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-discord-aaniasetukset-taustamelun-poisto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Discord-ääniasetukset (Taustamelun poisto)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-nain-jaat-ja-striimaat-ruutusi-discordissa-pc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Näin jaat ja striimaat ruutusi Discordissa (PC)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-kanavien-ja-palvelimen-mykistaminen-ilmoitusten-hallinta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Kanavien ja palvelimen mykistäminen (Ilmoitusten hallinta)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Kanavien ja palvelimen mykistäminen (Ilmoitusten hallinta)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yksittaisen-kanavan-mykistys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yksittäisen kanavan mykistys:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#koko-palvelimen-ilmoitusasetukset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Koko palvelimen ilmoitusasetukset:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-rcf-kamera-ja-luparoolit-pelikuvasi-seuran-kisaklippeihin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. RCF Kamera ja luparoolit: pelikuvasi seuran kisaklippeihin
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. RCF Kamera ja luparoolit: pelikuvasi seuran kisaklippeihin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nain-annat-luvan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Näin annat luvan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mita-tapahtuu-kun-jaat-nayttosi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mitä tapahtuu, kun jaat näyttösi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vinkit-hyvaan-tallenteeseen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vinkit hyvään tallenteeseen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lupa-some-ja-sailytys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lupa, some ja säilytys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="discord-aanichat-laitteet-ja-striimaus">Discord-äänichat, laitteet ja striimaus<a class="headerlink" href="#discord-aanichat-laitteet-ja-striimaus" title="Permanent link">&para;</a></h1>
+<p>Ride Club Finland kokoontuu Discordin puhekanaville tapahtumien, ryhmälenkkien ja kisojen aikana. Tämä opas neuvoo sopivat laitteet, taustamelun poiston, oman näytön jakamisen sekä kanavien mykistyksen.</p>
+<hr />
+<h2 id="1-aanilaitteiden-valinta-trainerin-aarelle">1. Äänilaitteiden valinta trainerin äärelle<a class="headerlink" href="#1-aanilaitteiden-valinta-trainerin-aarelle" title="Permanent link">&para;</a></h2>
+<p>Hikoilu ja harjoitusvastuksen sekä tuulettimen taustamelu asettavat erityisvaatimuksia äänilaitteille:</p>
+<h3 id="suositellut-kuulokkeet">Suositellut kuulokkeet:<a class="headerlink" href="#suositellut-kuulokkeet" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Luujohdekuulokkeet (Bone conduction, esim. Shokz):</strong> Seuran suosituin ja suositelluin malli. Korvakäytävät pysyvät avoimina (ei hikitukkeumia), eivät putoa päästä ja kestävät kovaa hikoilua.</li>
+<li><strong>Langattomat nappikuulokkeet:</strong> Hyvä vaihtoehto, kunhan varmistat veden-/hienkestävyyden (IPX4 tai parempi) ja riittävän akunkeston pitkille lenkeille.</li>
+<li><strong>Langalliset handsfree-kuulokkeet:</strong> Varmin yhteys ilman akku- tai Bluetooth-ongelmia.</li>
+</ul>
+<h3 id="suositellut-mikrofonit">Suositellut mikrofonit:<a class="headerlink" href="#suositellut-mikrofonit" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Kuulokkeiden sisäänrakennettu mikrofoni (varsinkin luujohdekuulokkeiden melunvaimennetut boom-mikrofonit).</li>
+<li>Erillinen pöytämikrofoni tai USB-mikrofoni traineripöydällä.</li>
+</ul>
+<hr />
+<h2 id="2-discord-aaniasetukset-taustamelun-poisto">2. Discord-ääniasetukset (Taustamelun poisto)<a class="headerlink" href="#2-discord-aaniasetukset-taustamelun-poisto" title="Permanent link">&para;</a></h2>
+<p>Traineritilan tuulettimet ja vastuksen vinkuna voivat häiritä muita, ellei asetuksia säädetä kuntoon:</p>
+<ol>
+<li>Avaa <strong>Käyttäjäasetukset</strong> (hammasratas-ikoni Discordin vasemmassa alakulmassa) $\rightarrow$ <strong>Ääni ja video</strong>.</li>
+<li><strong>Syöttö- ja ulostulolaitteet:</strong> Valitse nimenomaisesti käyttämäsi kuulokkeet ja mikrofoni (älä jätä "Default"-asetukselle).</li>
+<li><strong>Kohinanvaimennus (Noise Suppression):</strong>  </li>
+<li>Ota käyttöön <strong>Krisp</strong> (Discordin sisäänrakennettu tekoälypohjainen taustamelun poistaja). Krisp suodattaa tuulettimen suhinan ja trainerin äänet lähes täydellisesti pois puheesta!</li>
+<li><strong>Syöttötila (Input Mode):</strong></li>
+<li><strong>Puheentunnistus (Voice Activity):</strong> Määritä syöttöherkkyys käsin siten, että raskas hengitys tai tuuletin ei avaa mikrofonia yksinään.</li>
+<li><strong>Radiopuhelintila (Push-to-Talk):</strong> Varmin valinta kisoihin ja ryhmäajoihin. Mikrofoni aukeaa vain silloin, kun painat sovittua näppäintä (esim. ohjaustankoon kiinnitettyä pikanäppäintä tai hiiren painiketta).</li>
+<li><strong>Yksittäisen ajajan äänenvoimakkuus:</strong><br />
+   Jos joku seurakaveri kuuluu liian hiljaa tai kovaa, klikkaa hänen nimeään hiiren oikealla painikkeella ja säädä käyttäjäkohtaista äänenvoimakkuutta.</li>
+</ol>
+<blockquote>
+<p>[!TIP] Kuunteleminen on aina sallittua!
+Puhekanavalle ei ole pakko puhua. Voit tulla mukaan lenkille tai kisaan pitäen mikrofonisi mykistettynä – kuuntelemalla pysyt tilanteen tasalla ja nautit porukan tunnelmasta!</p>
+</blockquote>
+<hr />
+<h2 id="3-nain-jaat-ja-striimaat-ruutusi-discordissa-pc">3. Näin jaat ja striimaat ruutusi Discordissa (PC)<a class="headerlink" href="#3-nain-jaat-ja-striimaat-ruutusi-discordissa-pc" title="Permanent link">&para;</a></h2>
+<p>Voit jakaa oman ajo- ja kisanäkymäsi seurakavereille ja kisakatsomolle suoraan Discordissa:</p>
+<ol>
+<li>Käynnistä Zwift (tai MyWhoosh) ja liity Discordin puhekanavalle (esim. <code>#Yleinen</code> tai kyseisen ryhmän puhekanava).</li>
+<li>Paina Discordin alareunasta <strong>Näytön jakaminen</strong> (näyttö + nuoli -kuvake).</li>
+<li>Valitse <strong>Sovellukset</strong>-välilehdeltä Zwift (suositus) tai jaa koko näyttö.</li>
+<li><strong>Äänen jakaminen:</strong> Varmista, että äänen jakaminen on valittuna, jotta peliäänet kuuluvat katsomoon.</li>
+<li><strong>Laatuasetukset:</strong> Aseta resoluutioksi <strong>720p</strong> ja ruudunpäivitysnopeudeksi <strong>30 FPS</strong> (tasapainoinen kuva ilman että suoritin kuormittuu liikaa trainerin rinnalla).</li>
+<li>Paina <strong>Aloita jakaminen (Go Live)</strong>.</li>
+<li>Kun lopetat ajon, paina "Lopeta jakaminen" Discordin alareunasta.</li>
+</ol>
+<hr />
+<h2 id="4-kanavien-ja-palvelimen-mykistaminen-ilmoitusten-hallinta">4. Kanavien ja palvelimen mykistäminen (Ilmoitusten hallinta)<a class="headerlink" href="#4-kanavien-ja-palvelimen-mykistaminen-ilmoitusten-hallinta" title="Permanent link">&para;</a></h2>
+<p>Jos jokin vilkas kanava lähettää liikaa ilmoituksia, voit hallita sitä helposti:</p>
+<h3 id="yksittaisen-kanavan-mykistys">Yksittäisen kanavan mykistys:<a class="headerlink" href="#yksittaisen-kanavan-mykistys" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Tietokoneella:</strong> Klikkaa kanavan nimeä hiiren oikealla painikkeella $\rightarrow$ <strong>Mykistä kanava</strong> $\rightarrow$ valitse kesto (esim. 24 h tai <em>Kunnes kytket takaisin päälle</em>).</li>
+<li><strong>Puhelimella:</strong> Paina pitkään kanavan nimeä $\rightarrow$ <strong>Mykistä kanava</strong>.</li>
+<li>Samalla tavalla voit mykistää kokonaisen kanavakategorian (esim. PRO-KISAT).</li>
+</ul>
+<h3 id="koko-palvelimen-ilmoitusasetukset">Koko palvelimen ilmoitusasetukset:<a class="headerlink" href="#koko-palvelimen-ilmoitusasetukset" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Klikkaa palvelimen nimeä / :RCF:-kuvaketta vasemmassa yläkulmassa $\rightarrow$ <strong>Ilmoitusasetukset (Notification Settings)</strong>.</li>
+<li>Suositus: valitse <strong>Vain @maininnat (Only @mentions)</strong>, jolloin et saa piippausta jokaisesta chättiviestistä, vaan ainoastaan silloin kun sinua tai rooliasi kutsutaan.</li>
+</ul>
+<hr />
+<h2 id="5-rcf-kamera-ja-luparoolit-pelikuvasi-seuran-kisaklippeihin">5. RCF Kamera ja luparoolit: pelikuvasi seuran kisaklippeihin<a class="headerlink" href="#5-rcf-kamera-ja-luparoolit-pelikuvasi-seuran-kisaklippeihin" title="Permanent link">&para;</a></h2>
+<p>Seura kerää jäsenten pelikuvaa (Zwift, MyWhoosh) kisakoosteisiin, highlight-klippeihin ja someen.
+Sinun ei tarvitse nauhoittaa mitään itse: <strong>RCF Kamera</strong> tallentaa Go Live -jakosi, jos olet antanut luvan.</p>
+<h3 id="nain-annat-luvan">Näin annat luvan<a class="headerlink" href="#nain-annat-luvan" title="Permanent link">&para;</a></h3>
+<p>Avaa Discordissa <strong>Kanavat ja roolit</strong> (palvelimen nimen alta) ja vastaa kysymykseen
+<em>"Saako kisoistasi tehdä klippejä? Voit perua milloin vain."</em> (vapaaehtoinen, voit valita useamman):</p>
+<table>
+<thead>
+<tr>
+<th>Valinta</th>
+<th>Mitä se sallii</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🏠 <strong>Kyllä, Discordiin</strong></td>
+<td>Klippejä vain seuran Discordiin. Someen ei mene mitään</td>
+</tr>
+<tr>
+<td>🌍 <strong>Kyllä, myös someen</strong></td>
+<td>Discordin lisäksi Instagramiin ja YouTubeen</td>
+</tr>
+<tr>
+<td>🎙️ <strong>Puheeni saa käyttää</strong></td>
+<td>Puheesi saa kuulua klipissä tai näkyä siinä tekstityksenä</td>
+</tr>
+</tbody>
+</table>
+<p>Klipissä voi näkyä pelikuvasi, webkamerakuvasi ja omat wattisi ja sykkeesi. Nimesi näkyy aina muodossa
+E.Sukunimi, ja ihminen tarkistaa jokaisen julkaisun.</p>
+<p>RCF Kamera tallentaa jakosi, kun olet valinnut jommankumman <strong>Kyllä</strong>-vaihtoehdon. Voit muuttaa tai
+perua valintasi milloin tahansa samasta paikasta: jos poistat Kyllä-valinnan, tallennus loppuu heti.</p>
+<h3 id="mita-tapahtuu-kun-jaat-nayttosi">Mitä tapahtuu, kun jaat näyttösi<a class="headerlink" href="#mita-tapahtuu-kun-jaat-nayttosi" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Kun aloitat Go Liven puhekanavalla, <strong>🎥 RCF Kamera</strong> liittyy kanavalle mykistettynä ja näkyy jakosi katsojissa. Näin tiedät aina, milloin tallennetaan.</li>
+<li>Vain Kyllä-valinnan tehneiden jaot tallennetaan. Muiden jakoja ei tallenneta, eikä kamera tallenna puhekanavan keskustelua.</li>
+<li>Nuorten kanavalla kamera ei ole koskaan.</li>
+<li>Tallenne viedään seuran videostudion Drive-kansioosi, josta voit tilata videobotilta koosteen tai highlightin (<code>#videostudio</code>). Ohje: <a href="../ai_videostudio_ohje/">Videostudio</a>.</li>
+</ul>
+<h3 id="vinkit-hyvaan-tallenteeseen">Vinkit hyvään tallenteeseen<a class="headerlink" href="#vinkit-hyvaan-tallenteeseen" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Jaa vain peli-ikkuna</strong> (Sovellukset-välilehti), ei koko näyttöä: silloin ilmoitukset ja yksityisviestit eivät päädy kuvaan.</li>
+<li><strong>Laita "Jaa ääni" päälle</strong>, jos haluat pelin äänet mukaan.</li>
+<li>Jos lopetat jaon hetkeksi (alle 30 s), tallenne jatkuu samana videona.</li>
+</ul>
+<h3 id="lupa-some-ja-sailytys">Lupa, some ja säilytys<a class="headerlink" href="#lupa-some-ja-sailytys" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Someen vain valinnallasi.</strong> Jos valitsit <em>Kyllä, Discordiin</em>, tallenteistasi tehdyt klipit pysyvät RCF:n Discordissa. Valintasi tarkistetaan uudelleen ennen jokaista julkaisua.</li>
+<li>Raakatallenteet poistetaan <strong>14 päivän kuluttua</strong> (myös Drivesta). Valmiit koosteet jäävät, kunnes pyydät poistoa.</li>
+<li>Haluatko tallenteesi poistettavaksi heti? Kirjoita seuran ylläpidolle.</li>
+</ul>
+<p>Tarkemmin: <a href="../tietosuojaseloste/">Tietosuojaseloste</a>, kohta <em>RCF Kamera</em>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Takaisin ylös
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopioitu leikep\u00f6yd\u00e4lle", "clipboard.copy": "Kopioi leikep\u00f6yd\u00e4lle", "search.result.more.one": "1 lis\u00e4\u00e4 t\u00e4ll\u00e4 sivulla", "search.result.more.other": "# lis\u00e4\u00e4 t\u00e4ll\u00e4 sivulla", "search.result.none": "Ei t\u00e4sm\u00e4\u00e4vi\u00e4 dokumentteja", "search.result.one": "1 t\u00e4sm\u00e4\u00e4v\u00e4 dokumentti", "search.result.other": "# t\u00e4sm\u00e4\u00e4v\u00e4\u00e4 dokumenttia", "search.result.placeholder": "Kirjoita aloittaaksesi haun", "search.result.term.missing": "Puuttuu", "select.version": "Valitse versio"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
