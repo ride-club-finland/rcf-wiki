@@ -5,7 +5,7 @@ related_gold_docs: [member_faq_and_onboarding, discord_aani_ja_striimausopas, ti
 publishability: public_candidate
 status: koostettu_wikiin
 target_audience: kisaaja
-last_verified: 2026-10-26
+last_verified: 2026-10-31
 ---
 
 # Videostudio: näin saat videon kisastasi
@@ -72,7 +72,7 @@ intervals.icusta. Liitä se postaukseen (vaihe 3) tai vie omaan Drive-kansioosi.
 
 Vapaaehtoiset lisät, jotka parantavat videota:
 
-- **Selostus** (txt): kerro vapaasti, mitä kisassa tapahtui. Ilman sitä studio kysyy kisan läpi kohta kerrallaan.
+- **Selostus** (txt): ei tarvita, jos kerrot kisan kulun langassa (vaihe 4). Valmiin tekstin voi silti viedä kansioon.
 - **Tulokset** (txt): kopioi tulossivu ylhäältä asti, niin videoon tulee sijoitus ja ero voittajaan.
 - **Sarjatilanne** (txt). ZRL-kisoissa studio hakee sen itse.
 
@@ -90,8 +90,13 @@ Studio kysyy napeilla vain sen, mitä se ei saa datasta:
 - Zwiftissä kisamuoto ja kirit; MyWhooshissa kirit ja KOMit haetaan itse
 - tulokset, jos niitä ei ollut
 
-Jos annoit selostuksen, saat **kolme käsikirjoitusta**: *Koko kisa* (suositus), *Tiivis* ja *Laaja*. Valitse
-napista tai kirjoita muutos, esimerkiksi *"2, mutta lyhyempi"*. Jokaiseen kysymykseen voi vastata myös
+Lopuksi studio pyytää: **Kerro omin sanoin, miten kisa meni.** Kerro kisan kulku lähdöstä maaliin: mitä tapahtui,
+mitä päätit, kenen kanssa ajoit ja miten kisa ratkesi. Jos muistat kohdan, mainitse kisakello tai kilometri. Muut
+hetket studio etsii ajodatastasi. Mitä enemmän kerrot nyt, sitä vähemmän käsikirjoitusta tarvitsee korjata. Jos ohitat
+kysymyksen, studio tekee ensin suunnitelman ja käy kisan sen jälkeen läpi kohta kerrallaan.
+
+Kertomuksestasi tai selostuksestasi saat **kolme käsikirjoitusta**: *Koko kisa* (suositus), *Tiivis* ja *Laaja*.
+Valitse napista tai kirjoita muutos, esimerkiksi *"2, mutta lyhyempi"*. Jokaiseen kysymykseen voi vastata myös
 kirjoittamalla.
 
 Haluatko rivin juuri tietyksi? Kopioi käsikirjoituksen rivit, muokkaa ja lähetä ne samassa muodossa, esimerkiksi
