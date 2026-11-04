@@ -5,7 +5,7 @@ related_gold_docs: [member_faq_and_onboarding, discord_aani_ja_striimausopas, ti
 publishability: public_candidate
 status: koostettu_wikiin
 target_audience: kisaaja
-last_verified: 2026-10-31
+last_verified: 2026-11-03
 ---
 
 # Videostudio: näin saat videon kisastasi
@@ -108,6 +108,9 @@ Oma `alku:`-rivisi on myös videon avauslause. Ruutuun mahtuu noin 70 merkkiä r
 
 - Saat **klippilistan** ja kuvan jokaisesta hetkestä. Muuta kirjoittamalla, esimerkiksi *"kolmonen pois"*,
   *"klippi 3 10 s pidemmäksi"*, *"klippi 2 alkaa mäen juurelta"* tai *"lisää A ja C"*. Studio näyttää muutokset ennen kuin tekee ne (**Tee muutokset**), sitten **Renderöi**.
+- **Tarkan kohdan voi kertoa itse**, jos klippi ei osu haluamaasi hetkeen: *"klippi 6 alkaa ajassa 36:00"*
+  (kisakello) tai *"klippi 6 alkaa matkasta 22,3 km"*. Klippi siirtyy pituutensa säilyttäen. Kisakello
+  toimii myös silloin, kun ajodatasi loppuu ennen maalia.
 - **Esikatselu** tulee lankaan, kun se on valmis. Anna palautetta tai paina **Hyväksy**.
 - **Täysi laatu** tulee Drive-kansiosi alikansioon `valmiit/`.
 - **Highlightit:** valitse 1–3 hetkeä (maali, kiri, KOM). Studio kysyy, miltä tuntui, ja ehdottaa otsikoita.
